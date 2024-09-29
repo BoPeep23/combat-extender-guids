@@ -1,6 +1,6 @@
 [
     {
-        "Location": "Nautiloid - First Imps",
+        "Location": "Nautiloid",
         "Entity": "Entity (0200000100004658)",
         "Guid": "5c5bd50b-147e-42e5-93cb-59a754df91ec",
         "Handle": "Imp",
@@ -9,12 +9,14 @@
         "HealthOverride": 10,
         "CloneTemplateGuid": "",
         "CloneDisplayName": "",
-        "SpellsToAdd": [],
+        "SpellsToAdd": [
+            "Target_Sting_Imp"
+        ],
         "PassivesToAdd": [],
         "Notes": []
     },
     {
-        "Location": "Nautiloid - First Imps",
+        "Location": "Nautiloid",
         "Entity": "Entity (0200000100004648)",
         "Guid": "07f1512b-efe9-4eb8-8ade-783435e9d7c9",
         "Handle": "Imp",
@@ -24,11 +26,14 @@
         "CloneTemplateGuid": "",
         "CloneDisplayName": "Cloned Imp",
         "SpellsToAdd": [],
-        "PassivesToAdd": [],
+        "PassivesToAdd": [
+            "ElementalAdept_Fire",
+            "MAG_LC_BurnOnDamage_Scimitar_Passive"
+        ],
         "Notes": []
     },
     {
-        "Location": "Nautiloid - First Imps",
+        "Location": "Nautiloid",
         "Entity": "Entity (0200000100004650)",
         "Guid": "38d1ce2f-4f19-4266-971d-61f08bc1a895",
         "Handle": "Imp",
@@ -42,7 +47,7 @@
         "Notes": []
     },
     {
-        "Location": "Nautiloid - First Imps",
+        "Location": "Nautiloid",
         "Entity": "Entity (02000001000045e6)",
         "Guid": "16bebcc5-41d7-4fea-9e34-6f042fbc5ca2",
         "Handle": "Incinerated Mind Flayer",
@@ -58,7 +63,7 @@
         ]
     },
     {
-        "Location": "Nautiloid - First Imps",
+        "Location": "Nautiloid",
         "Entity": "Entity (020000010000464d)",
         "Guid": "249cc14e-c0d3-4139-abc0-a5b22d567131",
         "Handle": "Imp",
@@ -76,7 +81,7 @@
     {
         "Location": "Chapel Entrance",
         "Entity" : "Entity (020000070001f843)",
-        "Guid" : "538e38b9-e3a4-452a-8369-60eb1fe8c40d",
+        "Guid": "538e38b9-e3a4-452a-8369-60eb1fe8c40d",
         "Handle" : "Gimblebock",
         "Name" : "S_CHA_Exterior_Bandit_Melee_01",
         "Type": "",
@@ -90,7 +95,7 @@
     {
         "Location": "Chapel Entrance",
         "Entity" : "Entity (0200000a0001b4fb)",
-        "Guid" : "fa1a1fbd-2152-40e4-b53d-29e95d54279e",
+        "Guid": "fa1a1fbd-2152-40e4-b53d-29e95d54279e",
         "Handle" : "Warryn",
         "Name" : "S_CHA_Exterior_Bandit_Ranger_01",
         "Type": "",
@@ -104,7 +109,7 @@
     {
         "Location": "Chapel Entrance",
         "Entity" : "Entity (0200000a0001b503)",
-        "Guid" : "0f4300f6-0e1e-4d6c-a582-5da588d64ea7",
+        "Guid": "0f4300f6-0e1e-4d6c-a582-5da588d64ea7",
         "Handle" : "Quelenna",
         "Name" : "S_CHA_Exterior_Bandit_Caster_01",
         "Type": "",
@@ -118,7 +123,7 @@
     {
         "Location": "Chapel Entrance",
         "Entity" : "Entity (020000070001f85e)",
-        "Guid" : "b5c913f9-f081-45bd-8e95-e34d0735b645",
+        "Guid": "b5c913f9-f081-45bd-8e95-e34d0735b645",
         "Handle" : "Taman",
         "Name" : "S_CHA_Exterior_Bandit_Melee_02",
         "Type": "",
@@ -132,7 +137,7 @@
     {
         "Location": "Dank Crypt",
         "Entity" : "Entity (0200000300002d4b)",
-        "Guid" : "ebf854f1-7971-4f81-a2b7-e4b79b550b85",
+        "Guid": "ebf854f1-7971-4f81-a2b7-e4b79b550b85",
         "Handle" : "Entombed Warrior",
         "Name" : "S_CHA_FL0_DeadSkeleton_Melee_01",
         "Type": "",
@@ -146,7 +151,7 @@
     {
         "Location": "Dank Crypt",
         "Entity" : "Entity (020000030000306e)",
-        "Guid" : "cb4c2c8f-b6db-4c53-b7e3-395aef311a39",
+        "Guid": "cb4c2c8f-b6db-4c53-b7e3-395aef311a39",
         "Handle" : "Entombed Scribe",
         "Name" : "S_CHA_FL0_DeadSkeleton_Caster_04",
         "Type": "",
@@ -160,7 +165,7 @@
     {
         "Location": "Dank Crypt",
         "Entity" : "Entity (02000003000019f9)",
-        "Guid" : "7af3fa6c-7f7a-4920-acaf-f091e7c62373",
+        "Guid": "7af3fa6c-7f7a-4920-acaf-f091e7c62373",
         "Handle" : "Entombed Scribe",
         "Name" : "S_CHA_FL0_DeadSkeleton_Caster_01",
         "Type": "",
@@ -174,7 +179,7 @@
     {
         "Location": "Dank Crypt",
         "Entity" : "Entity (020000030000306f)",
-        "Guid" : "462f0982-35c4-4a34-a3bf-399f37e686ee",
+        "Guid": "462f0982-35c4-4a34-a3bf-399f37e686ee",
         "Handle" : "Entombed Scribe",
         "Name" : "S_CHA_FL0_DeadSkeleton_Caster_03",
         "Type": "",
@@ -188,7 +193,7 @@
     {
         "Location": "Dank Crypt",
         "Entity" : "Entity (0200000300003070)",
-        "Guid" : "1535feb9-7ff9-4132-be09-191ba3f8c2e1",
+        "Guid": "1535feb9-7ff9-4132-be09-191ba3f8c2e1",
         "Handle" : "Entombed Scribe",
         "Name" : "S_CHA_FL0_DeadSkeleton_Caster_02",
         "Type": "",
@@ -202,7 +207,7 @@
     {
         "Location": "Dank Crypt",
         "Entity" : "Entity (0200000100003ac8)",
-        "Guid" : "8409e274-4a4a-4de6-b34c-e701847ed86e",
+        "Guid": "8409e274-4a4a-4de6-b34c-e701847ed86e",
         "Handle" : "Mari",
         "Name" : "S_CHA_FL1_BanditLockpick",
         "Type": "",
@@ -216,7 +221,7 @@
     {
         "Location": "Dank Crypt",
         "Entity" : "Entity (0200000100003aca)",
-        "Guid" : "f0945b85-3cfe-4312-b49a-3741b1f0bfc7",
+        "Guid": "f0945b85-3cfe-4312-b49a-3741b1f0bfc7",
         "Handle" : "Barton",
         "Name" : "S_CHA_FL1_BanditSanctum",
         "Type": "",
@@ -230,7 +235,7 @@
     {
         "Location": "Dank Crypt",
         "Entity" : "Entity (0200000100003ac9)",
-        "Guid" : "fd5f646a-d5f6-4f19-904f-61dfc7e14d7e",
+        "Guid": "fd5f646a-d5f6-4f19-904f-61dfc7e14d7e",
         "Handle" : "Haseid",
         "Name" : "S_CHA_FL1_BanditSanctum_01",
         "Type": "",
@@ -244,7 +249,7 @@
     {
         "Location": "Dank Crypt",
         "Entity" : "Entity (0200000100003ac4)",
-        "Guid" : "5d2f2ff7-d1c0-4f95-b12a-b17b60182cfc",
+        "Guid": "5d2f2ff7-d1c0-4f95-b12a-b17b60182cfc",
         "Handle" : "Torgga",
         "Name" : "S_CHA_FL1_BanditSanctum_02",
         "Type": "",
@@ -258,7 +263,7 @@
     {
         "Location": "Dank Crypt",
         "Entity" : "Entity (020000010000394a)",
-        "Guid" : "4000f859-71fe-49ef-8400-da44b6fef92a",
+        "Guid": "4000f859-71fe-49ef-8400-da44b6fef92a",
         "Handle" : "Andorn",
         "Name" : "S_CHA_FL1_BanditGuard",
         "Type": "",
@@ -272,7 +277,7 @@
     {
         "Location": "Dank Crypt",
         "Entity" : "Entity (0200000100003ac7)",
-        "Guid" : "81e99fb9-2a52-4a26-910d-a637c379f15b",
+        "Guid": "81e99fb9-2a52-4a26-910d-a637c379f15b",
         "Handle" : "Cefrey",
         "Name" : "S_CHA_FL1_BanditSanctum_03",
         "Type": "",
@@ -286,7 +291,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (0200000100000964)",
-        "Guid" : "442fddf8-875a-4099-8725-12042f9e3ebd",
+        "Guid": "442fddf8-875a-4099-8725-12042f9e3ebd",
         "Handle" : "Goblin Tracker",
         "Name" : "S_DEN_GoblinRaider_Ranger_03",
         "Type": "",
@@ -302,7 +307,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (0200000100000965)",
-        "Guid" : "7fbfb1b0-184b-4889-935b-f916a7ad1177",
+        "Guid": "7fbfb1b0-184b-4889-935b-f916a7ad1177",
         "Handle" : "Goblin Tracker",
         "Name" : "S_DEN_GoblinRaider_Ranger_01",
         "Type": "",
@@ -317,7 +322,7 @@
     },
     {
         "Entity" : "Entity (020000010000390b)",
-        "Guid" : "b1e2d6a7-0fad-4485-ae2e-2ec78ce4e658",
+        "Guid": "b1e2d6a7-0fad-4485-ae2e-2ec78ce4e658",
         "Handle" : "Sharp-Eye Sneem",
         "Name" : "S_GOB_RaiderFunny",
         "Type": "",
@@ -330,7 +335,7 @@
     },
     {
         "Entity" : "Entity (0200000100003900)",
-        "Guid" : "de48bba2-e616-4db1-9d1c-76c1f285927f",
+        "Guid": "de48bba2-e616-4db1-9d1c-76c1f285927f",
         "Handle" : "Goblin Sharp-Eye",
         "Name" : "S_GOB_RaiderBossy",
         "Type": "",
@@ -345,7 +350,7 @@
     },
     {
         "Entity" : "Entity (02000001000038f9)",
-        "Guid" : "d0269a95-45f2-4877-b301-0c1740f3dd7d",
+        "Guid": "d0269a95-45f2-4877-b301-0c1740f3dd7d",
         "Handle" : "Warrior Trunk",
         "Name" : "S_GOB_RaiderCrafty",
         "Type": "",
@@ -358,7 +363,7 @@
     },
     {
         "Entity" : "Entity (02000001000038fc)",
-        "Guid" : "71620f09-46cb-4c03-b874-7c97926e6fbf",
+        "Guid": "71620f09-46cb-4c03-b874-7c97926e6fbf",
         "Handle" : "Goblin Sharp-Eye",
         "Name" : "S_GOB_RaiderViolent",
         "Type": "",
@@ -372,7 +377,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (02000001000038c2)",
-        "Guid" : "16614e7b-b200-45f3-83fb-dded3641861f",
+        "Guid": "16614e7b-b200-45f3-83fb-dded3641861f",
         "Handle" : "Sword Spider",
         "Name" : "S_GOB_AttackOnDen_Spider_001",
         "Type": "",
@@ -386,7 +391,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (0200000100000dbe)",
-        "Guid" : "6aec4799-3be2-46b7-896e-0075d2304d3d",
+        "Guid": "6aec4799-3be2-46b7-896e-0075d2304d3d",
         "Handle" : "Goblin Sharp-Eye",
         "Name" : "S_DEN_Raider_SharpEye_01",
         "Type": "",
@@ -402,7 +407,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (0200000100000db6)",
-        "Guid" : "681bdcc6-0a0c-4fb8-af9b-eb1346480521",
+        "Guid": "681bdcc6-0a0c-4fb8-af9b-eb1346480521",
         "Handle" : "Goblin Chemist",
         "Name" : "S_DEN_Raider_Chemist_01",
         "Type": "",
@@ -418,7 +423,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (02000001000037d0)",
-        "Guid" : "cde6e700-9c2a-4dec-9081-689881198639",
+        "Guid": "cde6e700-9c2a-4dec-9081-689881198639",
         "Handle" : "Bugbear",
         "Name" : "S_DEN_GoblinRaider_Bugbear_01",
         "Type": "",
@@ -432,7 +437,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (0200000100003963)",
-        "Guid" : "04695229-6f1d-433c-8e74-88e21e720e9a",
+        "Guid": "04695229-6f1d-433c-8e74-88e21e720e9a",
         "Handle" : "Ogre Brute",
         "Name" : "S_GOB_AttackOnDen_Ogre_001",
         "Type": "",
@@ -446,7 +451,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (0200000100000dbc)",
-        "Guid" : "93c2775a-bc9d-456b-9dd6-65191bb7ac9e",
+        "Guid": "93c2775a-bc9d-456b-9dd6-65191bb7ac9e",
         "Handle" : "Goblin Warrior",
         "Name" : "S_DEN_Raider_Warrior_01",
         "Type": "",
@@ -460,7 +465,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (02000001000038c0)",
-        "Guid" : "4264ba13-c816-405c-bc55-9f91dcfd9793",
+        "Guid": "4264ba13-c816-405c-bc55-9f91dcfd9793",
         "Handle" : "Sapper Dextor",
         "Name" : "S_GOB_AttackOnDen_Sapper_003",
         "Type": "",
@@ -474,7 +479,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (0200000100000db4)",
-        "Guid" : "f1a7c5a6-27e7-4164-a31d-d18b4064df85",
+        "Guid": "f1a7c5a6-27e7-4164-a31d-d18b4064df85",
         "Handle" : "Goblin Brawler",
         "Name" : "S_DEN_GoblinRaider_Melee_02",
         "Type": "",
@@ -488,7 +493,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (0200000100000dbf)",
-        "Guid" : "722fdb25-a124-4504-9edf-e1b790841c95",
+        "Guid": "722fdb25-a124-4504-9edf-e1b790841c95",
         "Handle" : "Goblin Devout",
         "Name" : "S_DEN_Raider_Cleric_01",
         "Type": "",
@@ -502,7 +507,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (0200000100003909)",
-        "Guid" : "23e26dde-3e25-4f94-a50d-0cd8c6bf4b64",
+        "Guid": "23e26dde-3e25-4f94-a50d-0cd8c6bf4b64",
         "Handle" : "Goblin Warlock",
         "Name" : "S_GOB_AttackOnDen_BarrelGoblin_003",
         "Type": "",
@@ -516,7 +521,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (020000010000390c)",
-        "Guid" : "5673d584-cce4-4688-bc50-c0da7eb252ec",
+        "Guid": "5673d584-cce4-4688-bc50-c0da7eb252ec",
         "Handle" : "Bugbear",
         "Name" : "S_GOB_AttackOnDen_Bugbear_001",
         "Type": "",
@@ -530,7 +535,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (0200000100000db5)",
-        "Guid" : "22d80f21-7f31-4240-b981-9137d53ad77d",
+        "Guid": "22d80f21-7f31-4240-b981-9137d53ad77d",
         "Handle" : "Za'krug",
         "Name" : "S_DEN_GoblinRaider_Captain",
         "Type": "",
@@ -544,7 +549,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (02000001000038bf)",
-        "Guid" : "1b6dba51-be8b-47ac-a73b-94c29e56bbad",
+        "Guid": "1b6dba51-be8b-47ac-a73b-94c29e56bbad",
         "Handle" : "Sapper Gald",
         "Name" : "S_GOB_AttackOnDen_Sapper_004",
         "Type": "",
@@ -558,7 +563,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (0200000100000db7)",
-        "Guid" : "6a03d0ff-a930-4347-bba2-9f3fd6bc317a",
+        "Guid": "6a03d0ff-a930-4347-bba2-9f3fd6bc317a",
         "Handle" : "Goblin Booyahg",
         "Name" : "S_DEN_GoblinRaider_Melee_01",
         "Type": "",
@@ -572,7 +577,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (0200000100000dbd)",
-        "Guid" : "bb9415e8-667b-401f-aa12-7f2f2c388952",
+        "Guid": "bb9415e8-667b-401f-aa12-7f2f2c388952",
         "Handle" : "Goblin Warlock",
         "Name" : "S_DEN_Raider_Warlock_01",
         "Type": "",
@@ -586,7 +591,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (0200000100000db8)",
-        "Guid" : "51e9e140-04c2-4598-83c0-787dac74ce61",
+        "Guid": "51e9e140-04c2-4598-83c0-787dac74ce61",
         "Handle" : "Worg",
         "Name" : "S_DEN_GoblinRaider_Worg_01",
         "Type": "",
@@ -600,7 +605,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (02000001000038c8)",
-        "Guid" : "7687218e-90a7-4694-bf69-e9f516ed030e",
+        "Guid": "7687218e-90a7-4694-bf69-e9f516ed030e",
         "Handle" : "Goblin Booyahg",
         "Name" : "S_GOB_AttackOnDen_BarrelGoblin_002",
         "Type": "",
@@ -614,7 +619,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (0200000100000967)",
-        "Guid" : "dfcc8342-4357-4b3f-9fb4-0d3eb2542830",
+        "Guid": "dfcc8342-4357-4b3f-9fb4-0d3eb2542830",
         "Handle" : "Goblin Tracker",
         "Name" : "S_DEN_GoblinRaider_Ranger_004",
         "Type": "",
@@ -628,7 +633,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (0200000100003964)",
-        "Guid" : "0d9a9811-27b3-48ae-84a6-8a85c65a092e",
+        "Guid": "0d9a9811-27b3-48ae-84a6-8a85c65a092e",
         "Handle" : "Goblin Brawler",
         "Name" : "S_DEN_GoblinRaider_Melee_003",
         "Type": "",
@@ -642,7 +647,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (02000001000000ec)",
-        "Guid" : "82d1b843-9e8c-48a5-9d87-caddea5c193c",
+        "Guid": "82d1b843-9e8c-48a5-9d87-caddea5c193c",
         "Handle" : "Aradin",
         "Name" : "S_DEN_AdventurerLeader",
         "Type": "",
@@ -656,7 +661,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (0200000100003902)",
-        "Guid" : "b27869ef-88e2-4f99-93f9-c1e8773dcf4a",
+        "Guid": "b27869ef-88e2-4f99-93f9-c1e8773dcf4a",
         "Handle" : "Goblin Warrior",
         "Name" : "S_GOB_AttackOnDen_BarrelGoblin_001",
         "Type": "",
@@ -670,7 +675,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (02000001000000ed)",
-        "Guid" : "534bceaf-678c-40a0-8ca9-e1134f95ba0d",
+        "Guid": "534bceaf-678c-40a0-8ca9-e1134f95ba0d",
         "Handle" : "Barth",
         "Name" : "S_DEN_RobbedAdventurer",
         "Type": "",
@@ -684,7 +689,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (02000001000038c3)",
-        "Guid" : "de05b62e-6306-46e1-9f2f-2ac6554d0316",
+        "Guid": "de05b62e-6306-46e1-9f2f-2ac6554d0316",
         "Handle" : "Sword Spider",
         "Name" : "S_GOB_AttackOnDen_Spider_002",
         "Type": "",
@@ -698,7 +703,7 @@
     {
         "Location": "Emerald Grove Environs",
         "Entity" : "Entity (0200000100000966)",
-        "Guid" : "c3fb3a30-a1a7-4d8a-8b3c-b101657a0a3d",
+        "Guid": "c3fb3a30-a1a7-4d8a-8b3c-b101657a0a3d",
         "Handle" : "Goblin Tracker",
         "Name" : "S_DEN_GoblinRaider_Ranger_02",
         "Type": "",
@@ -1364,7 +1369,7 @@
         "Notes": []
     },
     {
-        "Location": "Rivington well with dead refugees",
+        "Location": "Rivington Well",
         "Entity": "Entity (020000040002fab2)",
         "Guid": "3c97c664-1cc6-4016-85b3-8d898034dbe3",
         "Handle": "Murdered Refugee",
@@ -1378,7 +1383,7 @@
         "Notes": []
     },
     {
-        "Location": "Rivington well with dead refugees",
+        "Location": "Rivington Well",
         "Entity": "Entity (020000040002f998)",
         "Guid": "d6bedab4-4bf5-4828-965a-a2d970a97c22",
         "Handle": "Murdered Refugee",
@@ -1392,7 +1397,7 @@
         "Notes": []
     },
     {
-        "Location": "Rivington well with dead refugees",
+        "Location": "Rivington Well",
         "Entity": "Entity (0200000500021357)",
         "Guid": "bd0bce66-ce0f-4a66-bf5a-f928a97a9140",
         "Handle": "Murdered Refugee",
@@ -1406,7 +1411,7 @@
         "Notes": []
     },
     {
-        "Location": "Rivington well with dead refugees",
+        "Location": "Rivington Well",
         "Entity": "Entity (020000050002138a)",
         "Guid": "582b4626-1ae9-4454-af63-55628a738030",
         "Handle": "Murdered Refugee",
@@ -1420,7 +1425,7 @@
         "Notes": []
     },
     {
-        "Location": "Rivington well with dead refugees",
+        "Location": "Rivington Well",
         "Entity": "Entity (020000040002fab3)",
         "Guid": "13c404eb-edb3-4ed0-92c9-128ec2c2a2f3",
         "Handle": "Murdered Refugee",
@@ -3904,7 +3909,7 @@
         "Notes": []
     },
     {
-        "Location": "Mystic Carrion's Mansion",
+        "Location": "Philgrave's Mansion",
         "Entity": "Entity (020000040000e40b)",
         "Guid": "d8141d00-5f80-4245-9a48-fe3651be6954",
         "Handle": "Ulnar",
@@ -3918,7 +3923,7 @@
         "Notes": []
     },
     {
-        "Location": "Mystic Carrion's Mansion",
+        "Location": "Philgrave's Mansion",
         "Entity": "Entity (020000030001a337)",
         "Guid": "08bfd546-b2c2-461d-83e5-fc86160b3bfc",
         "Handle": "Ligus",
@@ -3932,7 +3937,7 @@
         "Notes": []
     },
     {
-        "Location": "Mystic Carrion's Mansion",
+        "Location": "Philgrave's Mansion",
         "Entity": "Entity (020000030001a995)",
         "Guid": "d03067ac-43a7-435b-be97-558065b1f7d1",
         "Handle": "Ancient Servant",
@@ -3946,7 +3951,7 @@
         "Notes": []
     },
     {
-        "Location": "Mystic Carrion's Mansion",
+        "Location": "Philgrave's Mansion",
         "Entity": "Entity (020000030001a334)",
         "Guid": "ea1e4956-140f-4dda-a0eb-211744ec3fd0",
         "Handle": "Hamate",
@@ -3960,7 +3965,7 @@
         "Notes": []
     },
     {
-        "Location": "Mystic Carrion's Mansion",
+        "Location": "Philgrave's Mansion",
         "Entity": "Entity (0200000500018123)",
         "Guid": "b003409c-364f-4065-94bf-7436001d890e",
         "Handle": "Mystic Carrion",
@@ -3978,7 +3983,7 @@
         ]
     },
     {
-        "Location": "Mystic Carrion's Mansion",
+        "Location": "Philgrave's Mansion",
         "Entity": "Entity (020000030001ab05)",
         "Guid": "ca673f78-bf5a-4170-9a3d-86956fd7320b",
         "Handle": "Ancient Servant",
@@ -3992,7 +3997,7 @@
         "Notes": []
     },
     {
-        "Location": "Mystic Carrion's Mansion",
+        "Location": "Philgrave's Mansion",
         "Entity": "Entity (020000030001a8d4)",
         "Guid": "2bb0196b-9bd6-4eb3-989f-29d14a8cd2d8",
         "Handle": "Ancient Servant",
@@ -4006,7 +4011,7 @@
         "Notes": []
     },
     {
-        "Location": "Mystic Carrion's Mansion",
+        "Location": "Philgrave's Mansion",
         "Entity": "Entity (020000030001ac5b)",
         "Guid": "bbc46971-3203-44b2-8582-b8822b1d5d70",
         "Handle": "Rectus",
@@ -4020,7 +4025,7 @@
         "Notes": []
     },
     {
-        "Location": "Mystic Carrion's Mansion",
+        "Location": "Philgrave's Mansion",
         "Entity": "Entity (020000030001a950)",
         "Guid": "f7e60433-053d-4735-b542-658397785f7a",
         "Handle": "Ancient Servant",
@@ -4034,7 +4039,7 @@
         "Notes": []
     },
     {
-        "Location": "Mystic Carrion's Mansion",
+        "Location": "Philgrave's Mansion",
         "Entity": "Entity (020000030001a921)",
         "Guid": "e6bd5cec-2691-4dc4-99ae-2461c87bb6ba",
         "Handle": "Ancient Servant",
@@ -4048,7 +4053,7 @@
         "Notes": []
     },
     {
-        "Location": "Mystic Carrion's Mansion",
+        "Location": "Philgrave's Mansion",
         "Entity": "Entity (020000030001a955)",
         "Guid": "9ede4829-ec97-40b6-ac1c-ef14b9c6d14a",
         "Handle": "Ancient Servant",
@@ -4062,7 +4067,7 @@
         "Notes": []
     },
     {
-        "Location": "Sahuagin by the docks",
+        "Location": "Sahuagin Docks",
         "Entity": "Entity (020000030001a626)",
         "Guid": "36902e83-9823-418a-8481-8835e95d481c",
         "Handle": "Sahuagin Champion",
@@ -4078,7 +4083,7 @@
         "Type": ""
     },
     {
-        "Location": "Sahuagin by the docks",
+        "Location": "Sahuagin Docks",
         "Entity": "Entity (020000030001a47d)",
         "Guid": "a6a894e4-f042-43a2-9111-0421e2a43740",
         "Handle": "Sahuagin Hunter",
@@ -4092,7 +4097,7 @@
         "Type": ""
     },
     {
-        "Location": "Sahuagin by the docks",
+        "Location": "Sahuagin Docks",
         "Entity": "Entity (020000030002d037)",
         "Guid": "576fa0c7-0227-41bd-9e1c-70bd4add32a2",
         "Handle": "Sahuagin",
@@ -4106,7 +4111,7 @@
         "Type": ""
     },
     {
-        "Location": "Sahuagin by the docks",
+        "Location": "Sahuagin Docks",
         "Entity": "Entity (0200000300025384)",
         "Guid": "05be919c-feef-49ab-80bf-8463f8622bdf",
         "Handle": "Sahuagin",
@@ -4120,7 +4125,7 @@
         "Type": ""
     },
     {
-        "Location": "Sahuagin by the docks",
+        "Location": "Sahuagin Docks",
         "Entity": "Entity (0200000400013777)",
         "Guid": "88d10dd5-b429-460f-945e-d5c797b8b1c7",
         "Handle": "Sahuagin",
@@ -4134,7 +4139,7 @@
         "Type": ""
     },
     {
-        "Location": "Sahuagin by the docks",
+        "Location": "Sahuagin Docks",
         "Entity": "Entity (020000040001114a)",
         "Guid": "9514d67d-119f-41da-97bc-ab3d7704c06b",
         "Handle": "Sahuagin",
@@ -4148,7 +4153,7 @@
         "Notes": []
     },
     {
-        "Location": "Smugglers by the docks",
+        "Location": "Smuggler Docks",
         "Entity": "Entity (0200000400027b37)",
         "Guid": "9f79f33b-fccf-44d5-a68b-7cd4f01b1b4e",
         "Handle": "Big Huido",
@@ -4162,7 +4167,7 @@
         "Notes": []
     },
     {
-        "Location": "Smugglers by the docks",
+        "Location": "Smuggler Docks",
         "Entity": "Entity (0200000500014e11)",
         "Guid": "8be5ed10-a4e2-41e9-839f-cdaa6c4d340c",
         "Handle": "Lo Blank",
@@ -4176,7 +4181,7 @@
         "Notes": []
     },
     {
-        "Location": "Smugglers by the docks",
+        "Location": "Smuggler Docks",
         "Entity": "Entity (0200000500014e12)",
         "Guid": "a7b70658-5f85-43db-b978-5076b1a56de1",
         "Handle": "Jezzy Topps",
@@ -4190,7 +4195,7 @@
         "Notes": []
     },
     {
-        "Location": "Smugglers by the docks",
+        "Location": "Smuggler Docks",
         "Entity": "Entity (0200000500014e0e)",
         "Guid": "b86be437-01de-4eb0-be7a-dd2894878ec9",
         "Handle": "Galem Meats",
@@ -4568,7 +4573,7 @@
         ]
     },
     {
-        "Location": "Gondians outside Foundry",
+        "Location": "Gondian Docks",
         "Entity": "Entity (0200000100006989)",
         "Guid": "1eb9d68b-2d0d-4b62-ba8f-0d8b01f08b53",
         "Handle": "Gondian Menalda",
@@ -4582,7 +4587,7 @@
         "Notes": []
     },
     {
-        "Location": "Gondians outside Foundry",
+        "Location": "Gondian Docks",
         "Entity": "Entity (0200000100006af6)",
         "Guid": "4f0fa9cc-a2d0-4450-a1d1-9cbfe521f172",
         "Handle": "Ironshield Brounce",
@@ -4596,7 +4601,7 @@
         "Notes": []
     },
     {
-        "Location": "Gondians outside Foundry",
+        "Location": "Gondian Docks",
         "Entity": "Entity (0200000100006af1)",
         "Guid": "fac964a4-f709-47a9-8a6e-7407a375316c",
         "Handle": "Ironshield Fulguro",
@@ -4610,7 +4615,7 @@
         "Notes": []
     },
     {
-        "Location": "Gondians outside Foundry",
+        "Location": "Gondian Docks",
         "Entity": "Entity (02000001000068d4)",
         "Guid": "59d3bc11-ac88-4ad5-b0ac-cc07279898fd",
         "Handle": "Citizen",
@@ -4624,7 +4629,7 @@
         "Notes": []
     },
     {
-        "Location": "Gondians outside Foundry",
+        "Location": "Gondian Docks",
         "Entity": "Entity (02000001000068fe)",
         "Guid": "5557a7bb-e153-408b-bb48-8bd648d84384",
         "Handle": "Citizen",
@@ -4638,7 +4643,7 @@
         "Notes": []
     },
     {
-        "Location": "Gondians outside Foundry",
+        "Location": "Gondian Docks",
         "Entity": "Entity (02000001000068fd)",
         "Guid": "3f54125c-5082-4f9b-8f15-4f90550ed3b2",
         "Handle": "Citizen",
@@ -4652,7 +4657,7 @@
         "Notes": []
     },
     {
-        "Location": "Gondians outside Foundry",
+        "Location": "Gondian Docks",
         "Entity": "Entity (02000001000068d3)",
         "Guid": "b1f49ec0-4bd5-4881-9ea3-6598e4c9f98a",
         "Handle": "Citizen",
@@ -4666,7 +4671,7 @@
         "Notes": []
     },
     {
-        "Location": "Gondians outside Foundry",
+        "Location": "Gondian Docks",
         "Entity": "Entity (02000001000068d5)",
         "Guid": "c440f859-b735-4241-a84a-a20f72048730",
         "Handle": "Citizen",
@@ -5964,7 +5969,7 @@
         "Notes": []
     },
     {
-        "Location": "A house in Baldur's Gate",
+        "Location": "Baldur's Gate Houses",
         "Entity": "Entity (02000003000269f0)",
         "Guid": "0a522d54-ac41-43ac-bf33-e4b3d7f85ee0",
         "Handle": "Gohumberry Tresp",
@@ -5980,7 +5985,7 @@
         ]
     },
     {
-        "Location": "A house in Baldur's Gate",
+        "Location": "Baldur's Gate Houses",
         "Entity": "Entity (0200000c0002f00c)",
         "Guid": "18fe60a8-7235-4450-ac5b-fcbf15bdae88",
         "Handle": "Alexander Rainforest",
@@ -5996,7 +6001,7 @@
         ]
     },
     {
-        "Location": "A house in Baldur's Gate",
+        "Location": "Baldur's Gate Houses",
         "Entity": "Entity (0200000c0002f00a)",
         "Guid": "28eabcbd-8297-4959-b6ca-a99cec39ed51",
         "Handle": "Ratin Sesescor",
@@ -6010,7 +6015,7 @@
         "Notes": []
     },
     {
-        "Location": "",
+        "Location": "Baldur's Gate Houses",
         "Entity": "Entity (0200000c00014b5d)",
         "Guid": "bfc4a14b-af9c-4c64-b07c-b63fd3cc420b",
         "Handle": "Katebee Pol",
@@ -6026,7 +6031,7 @@
         ]
     },
     {
-        "Location": "Basement in Baldur's Gate",
+        "Location": "Baldur's Gate Houses",
         "Entity": "Entity (0200000c0002e1f0)",
         "Guid": "0d20d453-e593-45af-85f7-c6081d1e6781",
         "Handle": "Winslow Reginol",
@@ -6042,7 +6047,7 @@
         ]
     },
     {
-        "Location": "House near Bloomridge Park",
+        "Location": "Baldur's Gate Houses",
         "Entity": "Entity (0200000a00000f66)",
         "Guid": "48c16283-82a6-49df-822a-4cdcd8a63c0e",
         "Handle": "Ohje Black Egg",
@@ -6058,7 +6063,7 @@
         ]
     },
     {
-        "Location": "House near Bloomridge Park",
+        "Location": "Baldur's Gate Houses",
         "Entity": "Entity (0200000a000251f3)",
         "Guid": "8e1a41d8-a986-4f4e-9fee-d927656ee359",
         "Handle": "Pale Thorax Kulls",
@@ -6074,7 +6079,7 @@
         ]
     },
     {
-        "Location": "House near Bloomridge Park",
+        "Location": "Baldur's Gate Houses",
         "Entity": "Entity (020000100000af24)",
         "Guid": "2177a3be-1c62-4b70-aaa4-e8b7479c9d19",
         "Handle": "Underground Murdugg",
@@ -6090,7 +6095,7 @@
         ]
     },
     {
-        "Location": "House near Bloomridge Park",
+        "Location": "Baldur's Gate Houses",
         "Entity": "Entity (0200000b0001f922)",
         "Guid": "2b3c19a0-d922-4a8d-a704-32c0b4dcf7ab",
         "Handle": "Olkesskrell",
@@ -6106,7 +6111,7 @@
         ]
     },
     {
-        "Location": "House near Bloomridge Park",
+        "Location": "Baldur's Gate Houses",
         "Entity": "Entity (020000100001a8be)",
         "Guid": "bcf9d5b4-8fa0-47ba-a276-c3da2fefdadb",
         "Handle": "Duna Duckfens",
@@ -6122,7 +6127,7 @@
         ]
     },
     {
-        "Location": "House near Bloomridge Park",
+        "Location": "Baldur's Gate Houses",
         "Entity": "Entity (020000100002436b)",
         "Guid": "d1c55ec4-2f8a-4d06-a295-0f25286fcb83",
         "Handle": "Piebald Pancesna",
@@ -6138,7 +6143,7 @@
         ]
     },
     {
-        "Location": "House near Bloomridge Park",
+        "Location": "Baldur's Gate Houses",
         "Entity": "Entity (020000190002dfc9)",
         "Guid": "c9a3a2dd-a3e6-4396-9a1b-0f6c2504a188",
         "Handle": "Poisonchops",
@@ -6154,7 +6159,7 @@
         ]
     },
     {
-        "Location": "House near Bloomridge Park",
+        "Location": "Baldur's Gate Houses",
         "Entity": "Entity (020000110001b4a1)",
         "Guid": "3accaff1-46d6-47f9-8ea6-52eb07d23cd8",
         "Handle": "Molly Winegobbs",
@@ -6170,7 +6175,7 @@
         ]
     },
     {
-        "Location": "House near Bloomridge Park",
+        "Location": "Baldur's Gate Houses",
         "Entity": "Entity (0200001400015d44)",
         "Guid": "2fcc1683-e4dd-46ee-ad24-188b3bf22679",
         "Handle": "Juloskloa",
@@ -6186,7 +6191,7 @@
         ]
     },
     {
-        "Location": "House near Bloomridge Park",
+        "Location": "Baldur's Gate Houses",
         "Entity": "Entity (020000120002eb6b)",
         "Guid": "446e2969-d4b5-4123-9ce9-14a253ac0833",
         "Handle": "Iphigea Evermist",
@@ -6202,7 +6207,7 @@
         ]
     },
     {
-        "Location": "House near Bloomridge Park",
+        "Location": "Baldur's Gate Houses",
         "Entity": "Entity (020000180002eca8)",
         "Guid": "cac453e3-20d1-48aa-a94c-dd0f6f16a4e7",
         "Handle": "Josef the Ferret",
@@ -6218,7 +6223,7 @@
         ]
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (0200000a00013237)",
         "Guid": "fcf27a61-1b80-4496-93ff-622a41c3ab61",
         "Handle": "Damn 'Em All Holmwood",
@@ -6234,7 +6239,7 @@
         ]
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (020000100001a4cc)",
         "Guid": "e43c2794-8849-48bb-aecd-04c08d456108",
         "Handle": "Catelys Gulchbreul",
@@ -6250,7 +6255,7 @@
         ]
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (0200001000026e6b)",
         "Guid": "7be1657c-eb46-4c6d-ae63-96dccd09ecd4",
         "Handle": "Zybil Hastenwald",
@@ -6266,7 +6271,7 @@
         ]
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (0200001000001941)",
         "Guid": "f191986a-d62d-4634-8abe-046d6852d53f",
         "Handle": "Rogering Pegleg",
@@ -6282,7 +6287,7 @@
         ]
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (02000010000230c1)",
         "Guid": "80a1eda5-59e0-435a-b8e9-32d35751b590",
         "Handle": "Fluemartina B. Martelles",
@@ -6298,7 +6303,7 @@
         ]
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (02000010000284e5)",
         "Guid": "b42e68ed-d168-4d20-a201-5ef340364301",
         "Handle": "Danfora of the Kingfish",
@@ -6314,7 +6319,7 @@
         ]
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (020000180002fbc4)",
         "Guid": "7cd1a7a0-1ca6-4672-a385-e3b82afd2ca3",
         "Handle": "Broom Boy Tigrellpie",
@@ -6330,7 +6335,7 @@
         ]
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (0200000a0002c356)",
         "Guid": "3c400dc0-7a9e-4cda-9cfe-7f743337be3b",
         "Handle": "Cotre Silkwright",
@@ -6346,7 +6351,7 @@
         ]
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (0200001000027bb3)",
         "Guid": "b1359ff1-cf7f-4176-ba48-99841c96a8cd",
         "Handle": "Earth Elemental",
@@ -6362,7 +6367,7 @@
         ]
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (0200001000012ea6)",
         "Guid": "3108bebd-3c92-42f3-921b-00930dd89632",
         "Handle": "Abaforth Zelksix",
@@ -6378,7 +6383,7 @@
         ]
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (020000090002815d)",
         "Guid": "9df1fad0-4829-4452-9884-c3d41543f3e8",
         "Handle": "Appleblossom Cathraelk",
@@ -6394,7 +6399,7 @@
         ]
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (020000120001343d)",
         "Guid": "1a5a300b-4c08-46a7-ada1-7cca3f0a26a3",
         "Handle": "Abyssal Gavin",
@@ -6410,7 +6415,7 @@
         ]
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (0200000a00002ae0)",
         "Guid": "86ccda32-2196-40fb-92ea-ed534c8021ae",
         "Handle": "Incontinentia Figgin",
@@ -6426,7 +6431,7 @@
         ]
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (0200001000029b11)",
         "Guid": "ce8bd9fc-97a8-4630-9d16-e1cfe575b97a",
         "Handle": "Martin Yoglin",
@@ -6442,7 +6447,7 @@
         ]
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (02000010000118be)",
         "Guid": "0c90dc83-f0c3-4c74-a2c3-c2a247f88e32",
         "Handle": "Sallyanne Corks",
@@ -6458,7 +6463,7 @@
         ]
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (020000120001343d)",
         "Guid": "1a5a300b-4c08-46a7-ada1-7cca3f0a26a3",
         "Handle": "Abyssal Gavin",
@@ -6472,7 +6477,7 @@
         "Notes": []
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (020000100000d5cc)",
         "Guid": "36781aa3-87ed-437a-b0af-a580a7c38c5a",
         "Handle": "Rupertine Verily",
@@ -6486,7 +6491,7 @@
         "Notes": []
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (020000100002d4ab)",
         "Guid": "ba69d500-d9ce-4996-864b-34794e6a0663",
         "Handle": "Luka Hauntselle",
@@ -6500,7 +6505,7 @@
         "Notes": []
     },
     {
-        "Location": "Basement near Bloomridge Park",
+        "Location": "Bloomridge Park Basement",
         "Entity": "Entity (020000120002e215)",
         "Guid": "3470abfd-e9a1-4ad2-a48d-242dea47a32a",
         "Handle": "Annathorn Rose",
@@ -6514,7 +6519,7 @@
         "Notes": []
     },
     {
-        "Location": "Crimson Draughts basement",
+        "Location": "Crimson Draughts Basement",
         "Entity": "Entity (02000011000048df)",
         "Guid": "b3af0166-2fe8-82c0-69a0-c3e7867d1143",
         "Handle": "Giant Spider",
@@ -6528,7 +6533,7 @@
         "Notes": []
     },
     {
-        "Location": "Crimson Draughts basement",
+        "Location": "Crimson Draughts Basement",
         "Entity": "Entity (0200000a0001a5df)",
         "Guid": "1a9c061d-6493-8abc-4402-c3c0ab43fbb9",
         "Handle": "Spectator",
@@ -7176,7 +7181,7 @@
         "Notes": []
     },
     {
-        "Location": "Sewer tunnels past the Guildhall",
+        "Location": "Guildhall Sewers",
         "Entity": "Entity (020000010000699b)",
         "Guid": "336fe388-afbe-4b9b-a86e-aec927658019",
         "Handle": "Death's Head of Bhaal Blythe",
@@ -7194,7 +7199,7 @@
         ]
     },
     {
-        "Location": "Sewer tunnels past the Guildhall",
+        "Location": "Guildhall Sewers",
         "Entity": "Entity (02000001000067a7)",
         "Guid": "42bbff34-15a2-4802-a6de-262ef040aa9f",
         "Handle": "Night Blade Phylle",
@@ -7208,7 +7213,7 @@
         "Notes": []
     },
     {
-        "Location": "Sewer tunnels past the Guildhall",
+        "Location": "Guildhall Sewers",
         "Entity": "Entity (0200000100006798)",
         "Guid": "a8f0d3b8-2b55-4f1e-acf7-ef2767544d8a",
         "Handle": "Night Blade Kryss",
@@ -7222,7 +7227,7 @@
         "Notes": []
     },
     {
-        "Location": "Sewer tunnels past the Guildhall",
+        "Location": "Guildhall Sewers",
         "Entity": "Entity (02000001000067a8)",
         "Guid": "abce7142-0fad-4801-8d34-4bfeffec23da",
         "Handle": "Night Blade Dogaletto",
@@ -7236,7 +7241,7 @@
         "Notes": []
     },
     {
-        "Location": "Arabella in the sewers",
+        "Location": "Arabella Sewers",
         "Entity": "Entity (020000010000009c)",
         "Guid": "02257c1c-bbec-4ae3-9bcb-31c75a0a982f",
         "Handle": "Arabella",
@@ -7250,7 +7255,7 @@
         "Notes": []
     },
     {
-        "Location": "Arabella in the sewers",
+        "Location": "Arabella Sewers",
         "Entity": "Entity (0200000100006926)",
         "Guid": "15013227-fbcd-4b9b-8624-bfea022e21b9",
         "Handle": "Woodchips Grant",
@@ -7264,7 +7269,7 @@
         "Notes": []
     },
     {
-        "Location": "Arabella in the sewers",
+        "Location": "Arabella Sewers",
         "Entity": "Entity (02000001000067ab)",
         "Guid": "bce49720-0dbf-4a62-9ff2-ecd146609a65",
         "Handle": "Ogreboy Colum",
@@ -7278,7 +7283,7 @@
         "Notes": []
     },
     {
-        "Location": "Arabella in the sewers",
+        "Location": "Arabella Sewers",
         "Entity": "Entity (020000010000681d)",
         "Guid": "c9e49c65-da89-44bf-8e0e-f87065a743b6",
         "Handle": "Livin' Large Timbo",
@@ -7292,7 +7297,7 @@
         "Notes": []
     },
     {
-        "Location": "Arabella in the sewers",
+        "Location": "Arabella Sewers",
         "Entity": "Entity (02000001000068f6)",
         "Guid": "e1ff3b5f-4da0-4cad-abd6-1393c6de9a3a",
         "Handle": "Brigand Harrold",
