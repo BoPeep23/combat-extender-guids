@@ -1,0 +1,1078 @@
+{
+  "Passives": [
+		{
+      "PassiveName": "CX_Magic_Boost",
+      "Act": {
+        "1": {
+          "ExtraPassives": ["WarCaster_OpportunitySpell", "SculptSpells"]
+        },
+        "2": {
+          "ExtraPassives": ["SpellSniper_Critical","WarCaster_Bonuses"]
+        },
+        "3": {
+          "ExtraPassives": ["SYR_DeadlyAlacrity","MagicResistance"]
+        }
+      }
+    },
+    {
+      "PassiveName": "CX_Barbarian_Boost",
+      "Act": {
+        "1": {
+          "Spells": [
+            "Throw_FrenziedThrow",
+            "Target_FrenziedStrike",
+            "Target_RecklessAttack"
+          ],
+          "ExtraPassives": [
+            "UnarmouredDefence_Barbarian",
+            "DangerSense",
+            "FastMovement"
+          ]
+        },
+        "2": {
+          "ExtraPassives": [
+            "MindlessRage",
+            "FeralInstinct",
+            "BrutalCritical",
+            "ExtraAttack"
+          ],
+          "Spells": [
+            "GreatWeaponMaster_BonusAttack"
+          ]
+        },
+        "3": {
+          "ExtraPassives": [
+            "RelentlessRage",
+            "MageSlayer_Advantage",
+            "MageSlayer_AttackCaster",
+            "MageSlayer_BreakConcentration"
+          ],
+          "Spells": [
+            "Shout_SecondWind"
+          ]
+        }
+      }
+    },
+    {
+      "PassiveName": "CX_Cleric_Boost",
+      "Act": {
+        "1": {
+          "Spells": [
+            "Projectile_GuidingBolt",
+            "Target_InflictWounds",
+            "Target_HealingWord",
+            "Shout_HealingWord_Mass",
+            "Shout_WordOfRadiance",
+            "Target_LifeTransference"
+          ],
+          "ExtraPassives": [
+            "DiscipleOfLife"
+          ]
+        },
+        "2": {
+          "Spells": [
+            "Shout_SpiritGuardians",
+            "Target_HoldPerson",
+            "Target_LesserRestoration",
+            "Target_InsectPlague",
+            "Target_DivineStrike_Melee_Life"
+          ],
+          "ExtraPassives": [
+            "SpellSniper_Critical",
+            "PotentSpellcasting"
+          ]
+        },
+        "3": {
+          "Spells": [
+            "Target_Contagion",
+            "Target_SpiritualWeapon",
+            "Target_FlameStrike",
+            "Target_FreedomOfMovement",
+            "Target_GreaterRestoration",
+            "Target_Harm",
+            "Target_Heal",
+            "Shout_GuidedStrike"
+          ],
+          "ExtraPassives": [
+            "WarCaster_OpportunitySpell",
+            "WarCaster_Bonuses"
+          ]
+        }
+      }
+    },
+    {
+      "PassiveName": "CX_Fighter_Boost",
+      "Act": {
+        "1": {
+          "Spells": [
+            "Target_DistractingStrike",
+            "Target_PushingAttack",
+            "Target_FeintingAttack",
+            "Zone_SweepingAttack",
+            "Shout_PrecisionAttack"
+          ],
+          "ExtraPassives": [
+            "Riposte",
+            "FightingStyle_GreatWeaponFighting",
+            "FightingStyle_TwoWeaponFighting",
+            "FightingStyle_Protection",
+            "FightingStyle_Dueling",
+            "FightingStyle_Archery"
+          ]
+        },
+        "2": {
+          "Spells": [
+            "Zone_SweepingAttack",
+            "Target_Slash"
+          ],
+          "ExtraPassives": [
+            "Sentinel_OpportunityAdvantage",
+            "Indomitable",
+            "ImprovedCombatSuperiority",
+            "ExtraAttack"
+          ]
+        },
+        "3": {
+          "ExtraPassives": [
+            "MageSlayer_Advantage",
+            "MageSlayer_AttackCaster",
+            "ExtraAttack_2"
+          ]
+        }
+      }
+    },
+    {
+      "PassiveName": "CX_Monk_Boost",
+      "Act": {
+        "2": {
+          "ExtraPassives": [
+            "Ki",
+            "ImprovedElementalCasting",
+            "ExtraAttack"
+          ],
+          "Spells": [
+            "Target_WaterWhip",
+            "Projectile_FangsOfTheFireSnake",
+            "Zone_Thunderwave_Monk",
+            "Target_FistOfUnbrokenAir",
+            "Target_StunningStrike",
+            "Target_StunningStrikeUnarmed"
+          ]
+        },
+        "3": {
+          "ExtraPassives": [
+            "Mobile_PassiveBonuses",
+            "Mobile_CounterAttackOfOpportunity",
+            "Mobile_DashAcrossDifficultTerrain",
+            "PurityOfBody",
+            "DeflectMissiles"
+          ],
+          "Spells": [
+            "Shout_ActionSurge",
+            "Zone_Thunderwave_Monk",
+            "Target_FistOfUnbrokenAir",
+            "Target_OpenHandTechnique_NoReactions",
+            "Target_OpenHandTechnique_Push",
+            "Target_OpenHandTechnique_Topple"
+          ]
+        }
+      }
+    },
+    {
+      "PassiveName": "CX_Paladin_Boost",
+      "Act": {
+        "1": {
+          "Spells": [
+            "Target_Smite_Thunderous",
+            "Target_Smite_Wrathful",
+            "Target_Smite_Searing",
+            "Target_Smite_Divine",
+            "Shout_DivineFavor"
+          ],
+          "ExtraPassives": [
+            "FightingStyle_GreatWeaponFighting",
+            "FightingStyle_TwoWeaponFighting",
+            "FightingStyle_Protection",
+            "FightingStyle_Dueling"
+          ]
+        },
+        "2": {
+          "Spells": [
+            "Shout_CrusadersMantle"
+          ],
+          "ExtraPassives": [
+            "ImprovedDivineSmite",
+            "MAG_Paladin_SmiteSpellsSupport_Helmet_Passive",
+            "ExtraAttack"
+          ]
+        },
+        "3": {
+          "Spells": [
+            "Target_StaggeringSmite",
+            "Target_VowOfEnmity",
+            "Shout_SpiritGuardians"
+          ],
+          "ExtraPassives": [
+            "PolearmMaster_AttackOfOpportunity",
+            "PolearmMaster_BonusAttack",
+            "HolyRebuke"
+          ]
+        }
+      }
+    },
+    {
+      "PassiveName": "CX_Ranger_Boost",
+      "Act": {
+        "1": {
+          "Spells": [
+            "Target_HuntersMark",
+            "Projectile_HailOfThorns",
+            "Target_Entangle",
+            "Shout_ZephyrStrike"
+          ],
+          "ExtraPassives": [
+            "FightingStyle_Archery",
+            "FightingStyle_Defense"
+          ]
+        },
+        "2": {
+          "Spells": [
+            "Target_MistyStep",
+            "Shout_HideInPlainSight",
+            "Target_SpikeGrowth",
+            "Shout_Whirlwind"
+          ],
+          "ExtraPassives": [
+            "MediumArmorMaster",
+            "ExtraAttack"
+          ]
+        },
+        "3": {
+          "Spells": [
+            "Target_HordeBreaker_Free",
+            "Shout_Disengage_CunningAction",
+            "Projectile_SneakAttack",
+            "Target_SneakAttack"
+          ],
+          "ExtraPassives": [
+            "MAG_Longstrider_Passive",
+            "DeflectMissiles"
+          ]
+        }
+      }
+    },
+    {
+      "PassiveName": "CX_Rogue_Boost",
+      "Act": {
+        "1": {
+          "Spells": [
+            "Projectile_SneakAttack",
+            "Target_SneakAttack"
+          ],
+          "ExtraPassives": [
+            "Evasion",
+            "UncannyDodge"
+          ]
+        },
+        "2": {
+          "Spells": [
+            "Interrupt_DefensiveDuelist"
+          ],
+          "ExtraPassives": [
+            "Alert",
+            "IronMind"
+          ]
+        },
+        "3": {
+          "ExtraPassives": [
+            "Lucky",
+            "Lucky_Unlock",
+            "ReliableTalent",
+            "ExceptionalTraining"
+          ]
+        }
+      }
+    },
+    {
+      "PassiveName": "CX_Spells_L1",
+      "Spells": [
+        "Target_LightningLure",
+        "Target_Frostbite",
+        "Target_GreenFlameBlade",
+        "Target_TollTheDead",
+        "Zone_FrostFingers",
+        "Shout_EarthTremor",
+        "Zone_TashasCausticBrew",
+        "Projectile_IceKnife",
+        "Projectile_MagicMissile",
+        "Projectile_RayOfSickness",
+        "Zone_Thunderwave"
+      ],
+      "ExtraSpellSlots": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "PassiveName": "CX_Spells_L2",
+      "Spells": [
+        "Zone_RimesBindingIce",
+        "Target_WitherAndBloom",
+        "Zone_AganazzarsScorcher",
+        "Target_MindSpike",
+        "Target_TashasMindWhip",
+        "Target_SnillocsSnowballStorm",
+        "Projectile_AcidArrow",
+        "Target_CloudOfDaggers",
+        "Zone_GustOfWind",
+        "Target_Shatter",
+        "Target_MistyStep"
+      ],
+      "ExtraSpellSlots": [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "PassiveName": "CX_Spells_L3",
+      "Spells": [
+        "Target_EruptingEarth",
+        "Teleportation_ThunderStep",
+        "Projectile_Fireball",
+        "Target_CallLightning",
+        "Zone_LightningBolt"
+      ],
+      "ExtraSpellSlots": [
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "PassiveName": "CX_Spells_L4",
+      "Spells": [
+        "Projectile_RaulothimsPsychicLance",
+        "Target_Blight",
+        "Target_IceStorm"
+      ],
+      "ExtraSpellSlots": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "PassiveName": "CX_Spells_L5",
+      "Spells": [
+        "Projectile_NegativeEnergyFlood",
+        "Target_SynapticStatic",
+        "Target_Cloudkill",
+        "Zone_ConeOfCold",
+        "Projectile_Disintegrate"
+      ],
+      "ExtraSpellSlots": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "PassiveName": "CX_Spells_L6",
+      "Spells": [
+        "Projectile_ChainLightning",
+        "Zone_Sunbeam",
+        "Target_CircleOfDeath",
+        "Target_FreezingSphere"
+      ],
+      "ExtraSpellSlots": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "PassiveName": "CX_Spells_L1C",
+      "Spells": [
+        "Target_Bane",
+        "Target_CauseFear",
+        "Target_FogCloud",
+        "Target_Grease"
+      ]
+    },
+    {
+      "PassiveName": "CX_Spells_L2C",
+      "Spells": [
+        "Target_MaximiliansEarthenGrasp",
+        "Target_HoldPerson",
+        "Target_WardingWind"
+      ]
+    },
+    {
+      "PassiveName": "CX_Spells_L3C",
+      "Spells": [
+        "Target_HypnoticPattern",
+        "Zone_Fear",
+        "Target_Haste",
+        "Target_Slow"
+      ]
+    },
+    {
+      "PassiveName": "CX_Spells_L4C",
+      "Spells": [
+        "Target_Banishment",
+        "Target_PhantasmalKiller",
+        "Target_GraspingVine"
+      ]
+    },
+    {
+      "PassiveName": "CX_Spells_L5C",
+      "Spells": [
+        "Throw_Telekinesis",
+        "Target_DominatePerson"
+      ]
+    },
+    {
+      "PassiveName": "CX_Spells_L6C",
+      "Spells": [
+        "Target_FleshToStone"
+      ]
+    }
+  ],
+  "Clones": {
+    "S_FirstFight_Imp_Melee_01_07f1512b-efe9-4eb8-8ade-783435e9d7c9":{"DisplayName":"Imp"},
+    "S_CHA_Exterior_Bandit_Caster_01_0f4300f6-0e1e-4d6c-a582-5da588d64ea7":{"DisplayName":"Familiar","Template":"S_UND_MephitAmbush_Mephit_008_83b9db14-ff7d-41c2-aa48-29e823468a97"},
+    "S_CHA_FL1_BanditLockpick_8409e274-4a4a-4de6-b34c-e701847ed86e":{"DisplayName":"Josh","Template":"S_CHA_FL1_BanditSanctum_01_fd5f646a-d5f6-4f19-904f-61dfc7e14d7e"},
+    "S_CHA_FL1_BanditSanctum_f0945b85-3cfe-4312-b49a-3741b1f0bfc7":{"DisplayName":"Brogash","Template":"S_CHA_FL1_BanditGuard_4000f859-71fe-49ef-8400-da44b6fef92a"},
+    "S_CHA_FL1_BanditGuard_4000f859-71fe-49ef-8400-da44b6fef92a":{"DisplayName":"Jediah","Template":"S_CHA_FL1_BanditSanctum_03_81e99fb9-2a52-4a26-910d-a637c379f15b"},
+    "S_SCL_FishermansHut_CursedKuoToa_08_1f8eb891-48eb-4804-8ae2-e495c19ed8f8":{"DisplayName":"Cursed Kuo-toa"},
+    "S_SCL_FishermansHut_CursedKuoToa_01_506a0ac8-f9f5-4679-a94d-7d1ad6abd173":{"DisplayName":"Cursed Kuo-toa"},
+    "S_SCL_FishermansHut_CursedKuoToa_07_80d5c307-054d-4240-8e08-f52ef24a799b":{"DisplayName":"Cursed Kuo-toa"},
+    "S_SCL_FishermansHut_CursedKuoToa_04_ff24c261-fe97-4451-a79a-04cdf16bc016":{"DisplayName":"Cursed Kuo-toa"},
+    "S_TWN_Hospital_ZealousAssistant_Extra_03_721e3e66-4ea7-4891-833b-ccd875db3531":{"DisplayName":"Sister Delilah"},
+    "S_TWN_Hospital_ZealousAssistant_Extra_04_01bc32c9-ddd9-4333-aefe-a4aa9c4ef0fc":{"DisplayName":"Sister Beth"},
+    "S_SHA_Cloaker_c8119fa9-0b73-421d-a5fc-b163e399a185":{"DisplayName":"Cloaker"},
+    "S_COL_TadpolingCentre_Mindflayer_004_5f7a197f-2d85-4fa0-a5a0-8b72138cf3b9":{"DisplayName":"Mind Flayer","Template":"S_COL_TadpolingCentre_Mindflayer_004_5f7a197f-2d85-4fa0-a5a0-8b72138cf3b9"},
+    "S_COL_TadpolingCentre_Mindflayer_005_6686b60f-2614-4eef-ad04-7e3faa4efacd":{"DisplayName":"Mind Flayer","Template":"S_COL_TadpolingCentre_Mindflayer_005_6686b60f-2614-4eef-ad04-7e3faa4efacd"},
+    "S_COL_TadpolingCentre_Mindflayer_001_08d7a7f5-4d33-4000-b2f7-7c0cf6053a89":{"DisplayName":"Mind Flayer","Template":"S_COL_TadpolingCentre_Mindflayer_001_08d7a7f5-4d33-4000-b2f7-7c0cf6053a89"},
+    "S_COL_TadpolingCentre_Mindflayer_002_6929f244-2aec-49d7-8c2d-2d5de934b2a0":{"DisplayName":"Mind Flayer","Template":"S_COL_TadpolingCentre_Mindflayer_002_6929f244-2aec-49d7-8c2d-2d5de934b2a0"},
+    "S_COL_Barracks_SkullLasher_001_78fe0419-8d29-4f13-9137-92e36e868456":{"DisplayName":"The Baroness","Template":"S_MOO_PrisonWarden_66b3e4c0-2f82-4c0a-9333-73a5194f88c7"},
+    "S_COL_Butcher_82ebdca0-f478-4c2b-a529-179a7e82b3db":{"DisplayName":"Mind Flayer","Template":"S_COL_TadpolingCentre_Mindflayer_004_5f7a197f-2d85-4fa0-a5a0-8b72138cf3b9"},
+    "S_COL_IntellectDevourer_Kitchen_05_c6db5b87-deb6-42d7-a615-6790801e006a":{"DisplayName":"Master of Souls","Template":"S_MOO_Assault_PrisonMasterOfSouls_02_11570320-e45b-480c-a92a-4734f560edcf"},
+    "S_COL_IntellectDevourer_Kitchen_01_9036bdcf-d70d-47f0-a71c-e4d1a7db1a88":{"DisplayName":"Vargouille","Template":"EO_MorgueHead_1_290d61f7-fd94-4024-b3af-2739835e3622"},
+    "S_COL_IntellectDevourer_Kitchen_03_506df930-e558-4078-81f0-b4929c264a04":{"DisplayName":"Vargouille","Template":"EO_MorgueHead_1_290d61f7-fd94-4024-b3af-2739835e3622"},
+    "S_COL_NecromancerRoom_Zombie_Greater_003_783e0bd7-5e0e-47e6-b02b-7d06f4bc9f62":{"DisplayName":"Vargouille","Template":"EO_MorgueHead_3_3258ad66-a7f6-42a8-a2fb-abc7a9c22b7d"},
+    "S_COL_NecromancerRoom_Undead4_38db884e-3817-48bb-a7ae-c066cb6176f9":{"DisplayName":"Vargouille","Template":"EO_MorgueHead_1_290d61f7-fd94-4024-b3af-2739835e3622"},
+    "S_COL_NecromancerRoom_Zombie_Greater_002_436bd7da-b0e9-4661-bce9-f53b674c1a08":{"DisplayName":"Vargouille","Template":"EO_MorgueHead_1_290d61f7-fd94-4024-b3af-2739835e3622"},
+    "S_COL_NecromancerRoom_DeathShepherd_000_1627bff7-5674-45f6-9da5-582521ce9296":{"DisplayName":"Death Shepherd"},
+    "S_COL_NecromancerRoom_Undead2_7e522c85-8768-40c1-8cf4-71ac9bdf8ac0":{"DisplayName":"Vargouille","Template":"EO_MorgueHead_3_3258ad66-a7f6-42a8-a2fb-abc7a9c22b7d"},
+    "S_COL_NecromancerRoom_Undead6_746f16c5-59bd-4b88-b250-64448fc4c05f":{"DisplayName":"Flesh Golem","Template":"S_TWN_Morgue_FleshGolem_8d7ed39a-5900-4437-9904-07797c30de2b"},
+    "S_WYR_MerchantsHouse_ThugLeader_bed33e19-1620-4845-aaa6-52de87f7e2e8":{"DisplayName":"Venazio Caat","Template":"S_WYR_SmugglersCave_StoneLord_Leader_40756dfd-a16c-4586-b1c3-6f0de1c7f515"},
+    "S_WYR_MerchantsHouse_Thug_001_2c1b28c2-279f-4a85-951b-96d4d5256634":{"DisplayName":"Thorple","Template":"S_WYR_Circus_Bouncer_08106e46-8ac2-49c4-adb3-dcc2aa585aa7"},
+    "S_WYR_MerchantsHouse_Thug_002_e7fc87a2-2320-43fc-83b3-5c9bc2076efe":{"DisplayName":"Gloomful Glonc","Template":"S_WYR_SmugglersCave_Guild_Caster_01_7fead2ff-77d2-45f1-abcc-ae6619a4a178"},
+    "S_WYR_Circus_DoppelClown_21f541c1-e1bc-49a8-888f-d8a330c47336":{"DisplayName":"Djinni Assistant","Template":"S_WYR_Circus_FortuneWheelWorker_21aa8a76-40ac-4d3a-881f-d6871487df6f"},
+    "S_WYR_Circus_Beast_03_fd8e7a4b-38cf-40c3-b4bf-8bbe084b5ca3":{"DisplayName":"Chewy Chum","Template":"S_WYR_Circus_Beast_02_cfaec473-d13a-42e8-a771-aa0e8f6a04da"},
+    "S_WYR_Circus_Thug_02_bc256194-1856-452b-a14e-f1c3f3b8c933":{"DisplayName":"Matthias","Template":"S_WYR_SmugglersCave_StoneLord_Caster_01_7f160186-c30a-40d3-86b6-978df3e72732"},
+    "S_WYR_OpenHand_Shifter_003_83bbacf9-5395-4420-b5de-5a112d598840":{"DisplayName":"Cruss"},
+    "S_WYR_OpenHand_Shifter_002_076ff51e-5710-409e-b1d3-a4b0dcec1e4f":{"DisplayName":"Vidd"},
+    "S_WYR_OpenHand_Shifter_001_fa27a169-32ba-4cf2-a400-e0874056c572":{"DisplayName":"Bamm"},
+    "S_WYR_SentientAmulet_Zombie_001_d985482f-3f1a-4fea-ba83-58fe5862841a":{"DisplayName":"Tomb Sentry","Template":"S_WYR_Wyrmsway_FailSkeleton_000_487f9e3d-8d34-45b3-bb47-a3f956e6578d"},
+    "S_WYR_SentientAmulet_Zombie_Shirra_cc15a9d4-b600-4e82-b981-3a0038a62c6c":{"DisplayName":"Tomb Thaumaturge","Template":"S_WYR_Wyrmsway_FailSkeleton_007_e8c114de-4350-4b8b-aa09-645b5aaec7f3"},
+    "S_WYR_SentientAmulet_Zombie_002_022ee3da-672b-4961-9cdf-89283878d3dd":{"DisplayName":"Tomb Guardian","Template":"S_WYR_Wyrmsway_FailSkeleton_039_265972ca-3ea0-4cf1-b671-d9143671051a"},
+    "S_WYR_SentientAmulet_Zombie_003_372d7242-975d-4eea-b7a5-a7e71cdb6f9e":{"DisplayName":"Tomb Guardian","Template":"S_WYR_Wyrmsway_FailSkeleton_039_265972ca-3ea0-4cf1-b671-d9143671051a"},
+    "S_WYR_Axe_DoppelgangerAssassin_003_b3ebb78f-2102-496a-b277-27ac214a88ca":{"DisplayName":"Summoned Water Myrmidon","Template":"S_WYR_CourageTest_Myrmidon3_8a6b3d1d-49da-431b-90e7-a87e7bdb8394"},
+    "S_WYR_Axe_DoppelgangerAssassin_002_ba5b21ad-bcc4-407c-85a3-f0448a7094b5":{"DisplayName":"The Huntress","Template":"S_WYR_MerchantsHouse_ThugLeader_bed33e19-1620-4845-aaa6-52de87f7e2e8"},
+    "S_WYR_Axe_DoppelgangerAssassin_004_d2d5409c-4196-42b1-b641-b32db6ac04e7":{"DisplayName":"Summoned Air Myrmidon","Template":"S_WYR_CourageTest_Myrmidon7_3fbdb287-a564-48d4-ab22-2b1028d9fc60"},
+    "S_WYR_SharessCaress_NymphRoom_FlamingFist_b5cb7f36-6ab8-48fb-9ddb-0bcb67807e44":{"DisplayName":"Cranium Raptor","Template":"S_WYR_Circus_Beast_02_cfaec473-d13a-42e8-a771-aa0e8f6a04da"},
+    "S_WYR_WyrmRockPrison_Guard_002_3a853d86-2086-4923-b09d-3192244effe6":{"DisplayName":"Fist Rivermounter"},
+    "S_WYR_Wyrmsway_FailSkeleton_033_f01b73e9-d205-4e2f-b536-fe3715d0cbd1":{"DisplayName":"Fallen Champion","Template":"S_WYR_Wyrmsway_FailSkeleton_039_265972ca-3ea0-4cf1-b671-d9143671051a"},
+    "S_WYR_Wyrmsway_FailSkeleton_012_620809ae-6afa-4b56-9434-727dd9da8e6d":{"DisplayName":"Fallen Champion","Template":"S_WYR_Wyrmsway_FailSkeleton_028_6f0b51e5-0d95-417f-bfe2-3cdd46c65e4d"},
+    "S_LOW_SerialKiller_Doppelganger_000_cb2bca61-95a9-4ce4-8bea-687682f95fb5":{"DisplayName":"Dolor"},
+    "S_LOW_SerialKiller_Doppelganger_003_64279955-a165-4a43-9b8b-64325e925300":{"DisplayName":"Dolor"},
+    "S_LOW_Elfsong_RatSwarmGroup_01_Rat_004_d8249bc4-936a-40f3-b93a-5aaeb9de4df5":{"DisplayName":"Flail Snail","Template":"S_LOW_HagSurvivors_Crab_02_6509cc72-4648-44ec-a0c2-598a2b85b3e0"},
+    "S_LOW_Elfsong_RatSwarmGroup_03_Rat_001_e5644356-fadc-48e6-9d92-ba71a8eb9276":{"DisplayName":"Flail Snail","Template":"S_LOW_HagSurvivors_Crab_04_cded4e77-ffde-4e7e-9e14-10761b46205b"},
+    "S_LOW_Elfsong_RatSwarmGroup_05_Rat_004_69a46cf7-8b87-4416-addb-2f56cdafb24a":{"DisplayName":"Flail Snail","Template":"S_LOW_HagSurvivors_Crab_03_709956be-ab4c-422d-ba68-6ca45d652df8"},
+    "S_LOW_Elfsong_RatSwarmGroup_04_Rat_003_cb980936-63a5-4848-b845-82153bc85700":{"DisplayName":"Flail Snail","Template":"S_LOW_HagSurvivors_Crab_02_6509cc72-4648-44ec-a0c2-598a2b85b3e0"},
+    "S_LOW_Elfsong_RatSwarmGroup_02_Rat_001_83a3bfe2-7ced-4025-b762-f286b36d9855":{"DisplayName":"Flail Snail","Template":"S_LOW_HagSurvivors_Crab_02_6509cc72-4648-44ec-a0c2-598a2b85b3e0"},
+    "S_LOW_MurderTribunal_DeathKnight_c16a1ebd-4390-4309-b5d5-30df6e1333f6":{"DisplayName":"That Which Serves"},
+    "S_LOW_Lorroakan_a9d4b71d-b0ef-429e-8210-6dc8be986ee9":{"DisplayName":"Lava Guardian","Template":"S_LOW_LavaElemental_1dea794e-2657-4c54-916b-edc639c4ff8c"},
+    "S_LOW_FatherCarrion_Ghast_Lower_d8141d00-5f80-4245-9a48-fe3651be6954":{"DisplayName":"Bolvar"},
+    "S_LOW_FatherCarrion_Ghoul_003_08bfd546-b2c2-461d-83e5-fc86160b3bfc":{"DisplayName":"Magus"},
+    "S_LOW_FatherCarrion_CoffinMummy_000_d03067ac-43a7-435b-be97-558065b1f7d1":{"DisplayName":"Ancient Servant"},
+    "S_LOW_FatherCarrion_Ghoul_001_ea1e4956-140f-4dda-a0eb-211744ec3fd0":{"DisplayName":"Davante"},
+    "S_LOW_FatherCarrion_b003409c-364f-4065-94bf-7436001d890e":{"DisplayName":"Death Shepherd","Template":"S_LOW_KurwinCoffin_W3_RisenSkeleton_Giant_49cc5f9e-72e3-440f-be8b-2c4ecf5964b5"},
+    "S_LOW_FatherCarrion_CoffinMummy_004_ca673f78-bf5a-4170-9a3d-86956fd7320b":{"DisplayName":"Ancient Servant"},
+    "S_LOW_FatherCarrion_CoffinMummy_002_2bb0196b-9bd6-4eb3-989f-29d14a8cd2d8":{"DisplayName":"Ancient Servant"},
+    "S_LOW_BeachSahuagin_Sahuagin_Champion_01_36902e83-9823-418a-8481-8835e95d481c":{"DisplayName":"Sahuagin Champion"},
+    "S_LOW_BeachSahuagin_Sahuagin_Ranger_02_a6a894e4-f042-43a2-9111-0421e2a43740":{"DisplayName":"Sahuagin Hunter"},
+    "S_LOW_BeachSahuagin_Sahuagin_Melee_01_576fa0c7-0227-41bd-9e1c-70bd4add32a2":{"DisplayName":"Sahuagin"},
+    "S_LOW_BeachSahuagin_Sahuagin_Melee_04_88d10dd5-b429-460f-945e-d5c797b8b1c7":{"DisplayName":"Sahuagin"},
+    "S_LOW_GuildSmugglers_Smuggler_9f79f33b-fccf-44d5-a68b-7cd4f01b1b4e":{"DisplayName":"Little Huido"},
+    "S_LOW_GuildSmugglers_Guard_002_8be5ed10-a4e2-41e9-839f-cdaa6c4d340c":{"DisplayName":"Hi Full"},
+    "S_LOW_DockWorg2_dc09e270-40e4-4f37-855e-ffe51b91b8f1":{"DisplayName":"Werewolf","Template":"S_LOW_CazadorsPalace_Ballroom_Werewolf_002_278ba30a-5902-4802-a569-89da39d3ab3a"},
+    "S_LOW_DockWorg3_755385cb-bee4-4991-bfb5-a03959c99d1f":{"DisplayName":"Giant Rat","Template":"S_LOW_CazadorsPalace_Ballroom_Rat_004_55d3d35f-4e0b-4dfe-af6e-ff2fc133d9a4"},
+    "S_LOW_DockWorg5_9f613f8d-8ed7-4042-adcc-e93932c5f24f":{"DisplayName":"Giant Rat","Template":"S_LOW_CazadorsPalace_Ballroom_Rat_004_55d3d35f-4e0b-4dfe-af6e-ff2fc133d9a4"},
+    "S_LOW_DockWorg4_2f885f58-85af-42db-ad4d-62a46d68f6af":{"DisplayName":"Werewolf","Template":"S_LOW_CazadorsPalace_Ballroom_Werewolf_002_278ba30a-5902-4802-a569-89da39d3ab3a"},
+    "S_LOW_Waveservant05_3995ac03-7410-468a-8b04-37d03409259d":{"DisplayName":"Water Myrmidon","Template":"S_LOW_LorroakanWaterMyrmidon_b9ed09f3-e67e-4498-aa24-5fecec718c07"},
+    "S_LOW_Waveservant04_28327055-7f42-4374-a483-3fd296fa26f6":{"DisplayName":"Water Myrmidon","Template":"S_LOW_LorroakanWaterMyrmidon_b9ed09f3-e67e-4498-aa24-5fecec718c07"},
+    "S_LOW_CellarWaveservant01_eb2f1d87-9d15-45bc-8899-15415c6cf6d2":{"DisplayName":"Water Myrmidon","Template":"S_LOW_LorroakanWaterMyrmidon_b9ed09f3-e67e-4498-aa24-5fecec718c07"},
+    "S_LOW_CellarWaveservant02_22aaad49-98de-43a2-ab2f-c7ab9a8df922":{"DisplayName":"Water Myrmidon","Template":"S_LOW_LorroakanWaterMyrmidon_b9ed09f3-e67e-4498-aa24-5fecec718c07"},
+    "S_LOW_VoloFate_Agitator_e896b270-21cd-4d5c-8b99-be87929f77f0":{"DisplayName":"Zerg Zamboni"},
+    "S_LOW_VoloFate_Thug_Ranged_03_3180fd1c-ff33-4ffb-b889-20ea51ac1fdb":{"DisplayName":"Michael Baton"},
+    "S_LOW_DevilsFee_Imp_Ranged_001_51df7e50-4cc1-4dc2-bf1d-31868845b92f":{"DisplayName":"Gilded Imp"},
+    "S_LOW_KurwinCoffin_KelemvorPriestess_74f08242-30d7-4ad5-a0d7-36aa75b213cc":{"DisplayName":"Mortarch Stacie Gryrer"},
+    "S_LOW_KurwinCoffin_W1_RisenZombie_000_ef33221b-8784-4ef5-8254-f5509bebf280":{"DisplayName":"Animated Zombie"},
+    "S_LOW_KurwinCoffin_W1_RisenZombie_001_33f12cb2-a215-4477-9b63-e808943e5622":{"DisplayName":"Animated Zombie"},
+    "S_LOW_KurwinCoffin_W2_RisenSkeleton_001_ebeac71b-70c2-4967-8db4-6479cf95d156":{"DisplayName":"Animated Skeleton"},
+    "S_LOW_KurwinCoffin_W1_RisenZombie_002_0d85e2c0-8bdd-4054-863e-9ae48d26d3e0":{"DisplayName":"Animated Mummy","Template":"S_LOW_FatherCarrion_CoffinMummy_004_ca673f78-bf5a-4170-9a3d-86956fd7320b"},
+    "S_LOW_KurwinCoffin_W1_RisenGreaterZombie_000_a249e576-9590-44bb-8861-727878ff6378":{"DisplayName":"Animated Mummy","Template":"S_LOW_FatherCarrion_CoffinMummy_000_d03067ac-43a7-435b-be97-558065b1f7d1"},
+    "S_LOW_KurwinCoffin_W3_RisenSkeleton_Giant_49cc5f9e-72e3-440f-be8b-2c4ecf5964b5":{"DisplayName":"Animated Revenant"},
+    "S_LOW_KurwinCoffin_W2_RisenSkeleton_000_cddec41d-e04d-4f92-831c-5b69f9ca3935":{"DisplayName":"Animated Skeleton"},
+    "S_LOW_KurwinCoffin_W2_RisenZombie_000_32184af9-a79c-4441-8984-f88222c6beee":{"DisplayName":"Lorroakan's Simulacrum","Template":"S_LOW_Lorroakan_a9d4b71d-b0ef-429e-8210-6dc8be986ee9"},
+    "S_LOW_KurwinCoffin_W2_RisenZombie_002_b3d5ce26-a490-44cb-8d3b-c608dc970290":{"DisplayName":"Animated Mummy","Template":"S_LOW_FatherCarrion_CoffinMummy_005_9ede4829-ec97-40b6-ac1c-ef14b9c6d14a"},
+    "S_LOW_KurwinCoffin_W1_RisenGreaterZombie_001_12ff4a57-71d3-4728-b82e-79881aeb2422":{"DisplayName":"Greater Zombie"},
+    "S_LOW_KurwinCoffin_W2_RisenSkeleton_002_81fe4430-ff34-4d74-993a-f96596b57f15":{"DisplayName":"Animated Ghast","Template":"S_LOW_FatherCarrion_Ghast_Lower_d8141d00-5f80-4245-9a48-fe3651be6954"},
+    "S_LOW_KurwinCoffin_W1_RisenSkeleton_001_7dd25316-fcd2-4be0-9e95-4329c3c63e15":{"DisplayName":"Animated Death Knight","Template":"S_LOW_MurderTribunal_DeathKnight_c16a1ebd-4390-4309-b5d5-30df6e1333f6"},
+    "S_LOW_KurwinCoffin_W2_RisenGreaterZombie_000_f34c2984-6a8d-4be2-9194-41b58fd76b78":{"DisplayName":"Animated Ghoul","Template":"S_LOW_FatherCarrion_Ghoul_004_bbc46971-3203-44b2-8582-b8822b1d5d70"},
+    "S_LOW_KurwinCoffin_W3_RisenSkeleton_002_8fa9a234-af17-45ec-a886-ee5b9801cb30":{"DisplayName":"Animated Skeleton"},
+    "S_LOW_KurwinCoffin_W3_RisenZombie_001_975a3277-5fc6-4bfc-9d4f-929ca55ac55b":{"DisplayName":"Animated Mummy","Template":"S_LOW_FatherCarrion_CoffinMummy_004_ca673f78-bf5a-4170-9a3d-86956fd7320b"},
+    "S_LOW_KurwinCoffin_W2_RisenZombie_001_4f7f5f28-0a47-41a1-b296-0b10de15f9ab":{"DisplayName":"Animated Mummy","Template":"S_LOW_FatherCarrion_CoffinMummy_002_2bb0196b-9bd6-4eb3-989f-29d14a8cd2d8"},
+    "S_LOW_KurwinCoffin_W1_RisenSkeleton_000_adafe912-0ea8-4672-831f-89379f7dbbb3":{"DisplayName":"Animated Skeleton"},
+    "S_LOW_KurwinCoffin_W3_RisenSkeleton_001_9f84f821-a388-451d-87e4-3cce8312a40a":{"DisplayName":"Animated Skeleton"},
+    "S_LOW_HagSurvivors_Crab_04_cded4e77-ffde-4e7e-9e14-10761b46205b":{"DisplayName":"Armoured Crab"},
+    "S_LOW_HagSurvivors_Crab_03_709956be-ab4c-422d-ba68-6ca45d652df8":{"DisplayName":"Armoured Crab"},
+    "S_LOW_HagSurvivors_Crab_02_6509cc72-4648-44ec-a0c2-598a2b85b3e0":{"DisplayName":"Armoured Crab"},
+    "S_LOW_HagSurvivors_Crab_06_99b9a9d3-8d33-409f-a640-a3f7418497a7":{"DisplayName":"Armoured Crab"},
+    "S_LOW_HagSurvivors_Crab_05_61c4494e-dea4-499c-a387-c1ee47cb9fc3":{"DisplayName":"Armoured Crab"},
+    "LOW_HagSurvivor_Crab_a8967b3d-8c55-af73-09ed-433d88837fb3":{"DisplayName":"Armoured Crab"},
+    "LOW_HagSurvivor_Crab_89a935a5-d71f-03dc-27d5-79d506d38d6e":{"DisplayName":"Armoured Crab"},
+    "LOW_HagSurvivor_Crab_7925ea3c-9ae7-ca3e-c8af-decbf3462683":{"DisplayName":"Armoured Crab"},
+    "S_LOW_BlushingMermaid_DisguisedRedcap_05_357299a8-b8c2-4b99-92f8-761fd697c435":{"DisplayName":"Jack 'Whiskey' Daniels"},
+    "S_LOW_BlushingMermaid_MaskedVictim_02_518fab8f-2d1d-46c8-9a45-9045156d0053":{"DisplayName":"Ancient Grease Mephit","Template":"S_LOW_GreaseMephit_008_1c4c8e46-9bce-4876-8b21-1ad6c96e0025"},
+    "S_LOW_BlushingMermaid_QuenoraGrizly_9d475536-34f0-4a6f-9191-3a635b81a232":{"DisplayName":"Ancient Grease Mephit","Template":"S_LOW_GreaseMephit_008_1c4c8e46-9bce-4876-8b21-1ad6c96e0025"},
+    "S_LOW_BlushingMermaid_MaskedVictim_01_453e3292-b7ff-4a13-873a-82da3bfc2511":{"DisplayName":"Ancient Grease Mephit","Template":"S_LOW_GreaseMephit_008_1c4c8e46-9bce-4876-8b21-1ad6c96e0025"},
+    "S_LOW_BlushingMermaid_MaskedVictim_03_0406349d-d0fc-4bf5-8d18-5b8b8c9e6456":{"DisplayName":"Ancient Grease Mephit","Template":"S_LOW_GreaseMephit_008_1c4c8e46-9bce-4876-8b21-1ad6c96e0025"},
+    "S_HAG_Hag_c457d064-83fb-4ec6-b74d-1f30dfafd12d":{"DisplayName":"Grease Guardian","Template":"S_LOW_GreaseElemental_001_f4e06895-6aa1-4fb0-9118-097e3e250cb2"},
+    "S_LOW_FakeSendai_Corpse_Duergar_001_3108bebd-3c92-42f3-921b-00930dd89632":{"DisplayName":"Glyph of Warding","Template":"S_LOW_JaheirasHouse_HelperFireOrb_a4bb00fd-862e-4b72-ac4c-cfd623ed9cb0"},
+    "S_LOW_FakeSendai_Corpse_Duergar_007_cac453e3-20d1-48aa-a94c-dd0f6f16a4e7":{"DisplayName":"Night Blade Katana","Template":"S_LOW_Park_BhaalAssassin01_500d7c8c-60a6-40c6-86b0-82db100b530e"},
+    "S_LOW_FakeCaptainEgeissag_Corpse_000_f191986a-d62d-4634-8abe-046d6852d53f":{"DisplayName":"Frosted Orb","Template":"S_LOW_JaheirasHouse_HelperColdOrb_544d32a5-7b03-4265-bb8f-8f6c4fa2b618"},
+    "S_LOW_FakeDiaytha_Corpse_000_b42e68ed-d168-4d20-a201-5ef340364301":{"DisplayName":"Gilded Minotaur","Template":"S_LOW_DevilsFee_Minotaur_001_600b2316-722c-4316-b19e-0dbf77b8651a"},
+    "S_LOW_FakeSendai_Corpse_Duergar_006_3c400dc0-7a9e-4cda-9cfe-7f743337be3b":{"DisplayName":"Night Blade Celia","Template":"S_LOW_Park_BhaalAssassin01_500d7c8c-60a6-40c6-86b0-82db100b530e"},
+    "S_LOW_FakeSendai_Corpse_000_1a5a300b-4c08-46a7-ada1-7cca3f0a26a3":{"DisplayName":"Echo of Sendai","Template":"S_LOW_MurderTribunal_Sendai_565accd2-0fdc-423e-ad68-752988a509b4"},
+    "S_LOW_FakeSendai_Corpse_001_86ccda32-2196-40fb-92ea-ed534c8021ae":{"DisplayName":"Death's Head of Bhaal Vonnahme","Template":"S_LOW_Bhaalist01_336fe388-afbe-4b9b-a86e-aec927658019"},
+    "S_LOW_FakeSendai_Corpse_006_3470abfd-e9a1-4ad2-a48d-242dea47a32a":{"DisplayName":"Echo of Sendai","Template":"S_LOW_MurderTribunal_Sendai_565accd2-0fdc-423e-ad68-752988a509b4"},
+    "Humans_Female_Cultist_Bhaal_DeathsHead_920647a1-844c-d260-d7e6-f2a4e7dc737d":{"DisplayName":"Reaper of Bhaal Lasira","Template":"S_LOW_UndercityChasmEntrance_Cultist_002_b1426ca0-e120-4e26-a0d6-d03625e4b5c8"},
+    "S_LOW_FakeSendai_Corpse_005_ba69d500-d9ce-4996-864b-34794e6a0663":{"DisplayName":"Devastator Kanozet","Template":"S_LOW_UndercityPatrol2_Cultist_001_ff5760cf-edab-482a-91bc-73e4e811eb57"},
+    "S_LOW_FakeSendai_Corpse_004_ce8bd9fc-97a8-4630-9d16-e1cfe575b97a":{"DisplayName":"Night Blade Kommo","Template":"S_LOW_RangedCultistAmbusher003_8d058eb7-2b2c-4504-9656-ec014b7b9872"},
+    "S_LOW_FakeSendai_Corpse_002_36781aa3-87ed-437a-b0af-a580a7c38c5a":{"DisplayName":"Invoker of Bhaal Crissa","Template":"S_LOW_UndercityPatrol1_Cultist_000_0d291d3e-bf25-49ab-a15e-ed7a8b115a13"},
+    "S_LOW_FakeSendai_Corpse_003_0c90dc83-f0c3-4c74-a2c3-c2a247f88e32":{"DisplayName":"Night Blade Cairo","Template":"S_LOW_UndercityPatrol1_Cultist_002_507919b5-2090-4a13-bcca-56e5a5f1c64b"},
+    "S_LOW_KerriGhostMummy_01_e0d5067c-5cf9-42c7-92c5-acec03e6e61a":{"DisplayName":"Vengeful Soul"},
+    "S_LOW_KerriGhostNurse_01_b8588238-d973-4363-9c78-bbb02729aa90":{"DisplayName":"Tormented Soul"},
+    "S_LOW_CazadorsPalace_Ballroom_Bat_002_0779b83e-4dc8-48d2-a91c-240247da6975":{"DisplayName":"Bat"},
+    "S_LOW_CazadorsPalace_Ballroom_Werewolf_002_278ba30a-5902-4802-a569-89da39d3ab3a":{"DisplayName":"Blair Vayart"},
+    "S_LOW_CazadorsPalace_Ballroom_Rat_004_55d3d35f-4e0b-4dfe-af6e-ff2fc133d9a4":{"DisplayName":"Giant Rat"},
+    "S_LOW_Bhaalist04_42bbff34-15a2-4802-a6de-262ef040aa9f":{"DisplayName":"Night Blade Jamiz"},
+    "S_LOW_Bhaalist02_a8f0d3b8-2b55-4f1e-acf7-ef2767544d8a":{"DisplayName":"Night Fist Graziano","Template":"S_LOW_Park_BhaalAssassin03_f28f8cd6-dc57-434e-a3ac-ed13cd9ed952"},
+    "S_LOW_Bhaalist03_abce7142-0fad-4801-8d34-4bfeffec23da":{"DisplayName":"Night Blade Hamstein"},
+    "S_LOW_GreaseElemental_002_db2e11c6-0562-4f49-abaf-96283819ba68":{"DisplayName":"Grease Elemental"},
+    "S_LOW_GreaseMephit_004_917cd8d0-03ca-4104-b9e2-fd22432607bd":{"DisplayName":"Grease Mephit"},
+    "S_LOW_AncientLairMummy_005_331ffe6e-00c9-4f79-94d4-c6d65b4a9093":{"DisplayName":"Ancient Servant"},
+    "S_LOW_AncientLairMummy_004_d526d72a-599c-464e-b7fe-84128d496b3c":{"DisplayName":"Ancient Servant"},
+    "S_LOW_AncientLairMummy_003_6d04276b-aefd-43a2-a2f0-eb586bcfc881":{"DisplayName":"Ancient Servant"},
+    "S_LOW_AncientLairMummy_002_6f71be30-7cab-43a7-999d-12b9adde5a0e":{"DisplayName":"Ancient Servant"},
+    "S_LOW_UndercityPatrol2_Cultist_001_ff5760cf-edab-482a-91bc-73e4e811eb57":{"DisplayName":"Devastator Tali"},
+    "S_LOW_UndercityPatrol2_Cultist_002_0e27e169-ee1e-4e56-93ba-3b86feafd252":{"DisplayName":"Devastator Jenkin"},
+    "S_LOW_GroundCultistAmbusher002_369cfca3-d282-4e73-ba40-670fb62f5fc5":{"DisplayName":"LOW_BhaalCultist_Crow_002_66f1fee5-0a9e-4d98-b29c-19caa6680b3a","Template":"Murderous Crow"},
+    "S_LOW_RangedCultistAmbusher002_61d478ae-72e6-44de-8bb1-0272c83fb85e":{"DisplayName":"LOW_BhaalCultist_Crow_002_66f1fee5-0a9e-4d98-b29c-19caa6680b3a","Template":"Murderous Crow"},
+    "S_LOW_UndercityPatrol1_Cultist_001_470999a2-58be-49cd-a50e-415b6e5a15fb":{"DisplayName":"Murderous Crow","Template":"LOW_BhaalCultist_Crow_002_66f1fee5-0a9e-4d98-b29c-19caa6680b3a"},
+    "S_LOW_RangedCultistAmbusher001_94ad0109-2c78-43f8-b7dd-0d056b742a23":{"DisplayName":"Murderous Crow","Template":"LOW_BhaalCultist_Crow_002_66f1fee5-0a9e-4d98-b29c-19caa6680b3a"},
+    "S_LOW_UndercityPatrol1_Cultist_002_507919b5-2090-4a13-bcca-56e5a5f1c64b":{"DisplayName":"Murderous Crow","Template":"LOW_BhaalCultist_Crow_002_66f1fee5-0a9e-4d98-b29c-19caa6680b3a"},
+    "S_LOW_GroundCultistAmbusher003_7446d348-4741-42b4-a43b-1cbbfacacb6e":{"DisplayName":"Murderous Crow","Template":"LOW_BhaalCultist_Crow_002_66f1fee5-0a9e-4d98-b29c-19caa6680b3a"},
+    "S_LOW_GroundCultistAmbusher001_d81275b5-bff3-4799-8118-e7aa5df575b1":{"DisplayName":"Murderous Crow","Template":"LOW_BhaalCultist_Crow_002_66f1fee5-0a9e-4d98-b29c-19caa6680b3a"},
+    "S_LOW_UndercityPatrol1_Cultist_000_0d291d3e-bf25-49ab-a15e-ed7a8b115a13":{"DisplayName":"Summoned Spectator","Template":"S_LOW_HouseOfHope_PrisonSpectator01_d92a207c-874a-4409-9cad-4abcec33efa1"},
+    "S_LOW_HouseOfHope_BoudoirImp03_4adcf56c-e1cc-4441-8e3f-0761172407d4":{"DisplayName":"Guardian Merregon","Template":"S_LOW_HouseOfHope_Merregon01_ba11228c-c75e-4df9-bd55-8091e1d48d36"},
+    "S_LOW_HouseOfHope_BoudoirImp02_5849cd14-4f4a-4742-bb0c-056c3ef7f90e":{"DisplayName":"Guardian Merregon","Template":"S_LOW_HouseOfHope_Merregon01_ba11228c-c75e-4df9-bd55-8091e1d48d36"},
+    "S_LOW_HouseOfHope_BoudoirImp06_3a9e98f5-fe4c-46b2-a129-1e67fe92512b":{"DisplayName":"Hell Sphere","Template":"S_LOW_HouseOfHope_FlamingSphere01_4cc8ad72-d4f4-434b-8474-b22256c6949e"},
+    "S_LOW_HouseOfHope_FireDebtor01_f790dbe7-021c-4eb1-a7e9-ba172f8eaca9":{"DisplayName":"Smouldering Eternal Debtor"},
+    "S_LOW_HouseOfHope_MerregonDebtor04_37191419-9d40-495a-b480-a4971a5f7129":{"DisplayName":"Immortal Eternal Debtor"},
+    "S_LOW_HouseOfHope_MerregonDebtor01_306e91b1-71af-4b6f-8df7-1e1dab6899d2":{"DisplayName":"Theologist Eternal Debtor"},
+    "S_LOW_HouseOfHope_Merregon01_ba11228c-c75e-4df9-bd55-8091e1d48d36":{"DisplayName":"Vengeful Merregon"},
+    "S_LOW_HouseOfHope_Prison_Imp_003_b5d6b288-45d1-497b-8339-cead5e16133d":{"DisplayName":"Vengeful Merregon","Template":"S_LOW_HouseOfHope_Merregon01_ba11228c-c75e-4df9-bd55-8091e1d48d36"},
+    "S_LOW_HouseOfHope_Prison_Imp_000_7f9717a3-16c6-4323-9976-a31d27e36495":{"DisplayName":"Vengeful Merregon","Template":"S_LOW_HouseOfHope_Merregon01_ba11228c-c75e-4df9-bd55-8091e1d48d36"},
+    "S_LOW_HouseOfHope_PrisonSpectator01_d92a207c-874a-4409-9cad-4abcec33efa1":{"DisplayName":"Fire Myrmidon","Template":"S_LOW_LorroakanFireMyrmidon_4f9f5fc9-45a7-412d-b388-f8e31a2d1c6b"},
+    "S_LOW_HouseOfHope_PrisonSpectator02_9089024f-e275-43a9-adec-f0923fab2f0c":{"DisplayName":"Fire Myrmidon","Template":"S_LOW_LorroakanFireMyrmidon_4f9f5fc9-45a7-412d-b388-f8e31a2d1c6b"}
+  },
+  "Overrides": {
+    "S_SCL_FishermansHut_CursedKuoToa_Champion_03524330-c6ca-4078-8fbf-12ec4ffa389a":{"Passives":["CX_Paladin_Boost"]},
+    "S_WYR_Circus_FortuneWheelWorker_21aa8a76-40ac-4d3a-881f-d6871487df6f":{"Passives":["CX_Spells_L5"],"Spells":["Target_Call Lightning", "Projectile_ChainLightning", "Shout_DestructiveWave"]},
+    "S_WYR_Circus_RedcapCleaner_001_f76cc3eb-dacc-4a85-9b0f-d119d3292c74":{"Passives":["CX_Fighter_Boost"]},
+    "S_WYR_Circus_RedcapCleaner_002_dcd59458-b259-48c0-bc79-9c23fb2fe730":{"Passives":["CX_Rogue_Boost"]},
+    "S_WYR_Circus_Beast_01_4d909cad-9b9b-4f34-ba27-6584bc8b4e20":{"Passives":["MistyEscape", "TAD_PsionicBacklash", "MAG_Psychic_MentalFatigue_Ring_Passive", "MAG_PsionicResistance_Passive", "IronMind"],"Spells":["Zone_MindBlast_MindFlayer"]},
+    "S_WYR_Circus_Beast_02_cfaec473-d13a-42e8-a771-aa0e8f6a04da":{"Passives":["MistyEscape", "TAD_PsionicBacklash", "MAG_Psychic_MentalFatigue_Ring_Passive", "MAG_PsionicResistance_Passive", "IronMind"],"Spells":["Zone_MindBlast_MindFlayer"],"HealthOverride":152},
+    "S_WYR_SentientAmulet_Zombie_Shirra_cc15a9d4-b600-4e82-b981-3a0038a62c6c":{"Spells":["Target_RiseUndead_DeathShepherd"]},
+    "S_WYR_Axe_DoppelgangerAssassin_001_7867564d-583d-4558-a927-1508ea61cf75":{"HealthOverride":96},
+    "S_WYR_Axe_DoppelgangerAssassin_003_b3ebb78f-2102-496a-b277-27ac214a88ca":{"HealthOverride":91},
+    "S_WYR_Axe_DoppelgangerAssassin_002_ba5b21ad-bcc4-407c-85a3-f0448a7094b5":{"HealthOverride":96},
+    "S_WYR_Axe_DoppelgangerAssassin_004_d2d5409c-4196-42b1-b641-b32db6ac04e7":{"HealthOverride":98},
+    "S_WYR_WyrmRockPrison_Guard_003_cbf95410-351a-491e-92aa-1663df98c6f5":{"Passives":["CX_Spells_L1", "CX_Spells_L1C", "CX_Spells_L2", "CX_Spells_L2C", "CX_Spells_L3", "CX_Spells_L3C"],"Spells":["Target_ArcaneLock"]},
+    "S_WYR_CourageTest_Myrmidon7_3fbdb287-a564-48d4-ab22-2b1028d9fc60":{"Passives":["ThunderboltStrike"]},
+    "S_WYR_CourageTest_Myrmidon4_e081f0a7-5ec2-4a29-b045-a09d13c20171":{"Passives":["ThunderboltStrike"]},
+    "S_WYR_CourageTest_Myrmidon3_8a6b3d1d-49da-431b-90e7-a87e7bdb8394":{"Passives":["TWN_ApplyWET"]},
+    "S_WYR_CourageTest_Myrmidon6_ce4ff3ce-29ef-47a4-8214-8449a59bffd9":{"Passives":["TWN_ApplyWET"]},
+    "S_WYR_CourageTest_Myrmidon8_ce2bb9f5-a90b-4a9c-ac98-ad1ee33b3f4c":{"Passives":["TWN_ApplyWET"]},
+    "S_WYR_CourageTest_Myrmidon2_bb1b1c58-cc61-47e0-9bc9-d1463553d6fa":{"Passives":["ThunderboltStrike"]},
+    "S_WYR_CourageTest_Myrmidon5_b403ca05-2642-40f8-ab4f-7fb2efa7f7fc":{"Passives":["ThunderboltStrike"]},
+    "S_WYR_CourageTest_Myrmidon1_f76893c2-c5ad-4124-8e45-472241a3671e":{"Passives":["TWN_ApplyWET"]},
+    "S_WYR_Wyrmsway_FailSkeleton_033_f01b73e9-d205-4e2f-b536-fe3715d0cbd1":{"Passives":["CX_Fighter_Boost"],"HealthOverride":80},
+    "S_WYR_Wyrmsway_FailSkeleton_031_3eead152-dd22-4f37-abdd-daf56319f810":{"Passives":["CX_Fighter_Boost"],"HealthOverride":80},
+    "S_WYR_Wyrmsway_FailSkeleton_034_ade5a168-0030-49f7-8406-e6d22fb31a73":{"Passives":["CX_Ranger_Boost"]},
+    "S_WYR_Wyrmsway_FailSkeleton_035_a8d19521-856a-45a0-8dbd-0de80227c877":{"Passives":["CX_Ranger_Boost"]},
+    "S_WYR_Wyrmsway_FailSkeleton_036_05c3e326-5390-4a3e-9dda-332e86d43a36":{"Passives":["CX_Spells_L1", "CX_Spells_L1C", "CX_Spells_L2", "CX_Spells_L2C"],"Spells":["Target_ChillTouch"]},
+    "S_WYR_Wyrmsway_FailSkeleton_038_104a7a2d-b546-4c4e-b1f5-76cf4702daf3":{"Passives":["CX_Spells_L1", "CX_Spells_L1C", "CX_Spells_L2", "CX_Spells_L2C"],"Spells":["Target_ChillTouch"]},
+    "S_WYR_Wyrmsway_FailSkeleton_032_1cd7e93c-4be0-4c63-97aa-96902fc7c383":{"Passives":["CX_Ranger_Boost"]},
+    "S_WYR_Wyrmsway_FailSkeleton_005_b1dbe85e-7c6c-496a-a8f5-8a890dad8db9":{"Passives":["CX_Ranger_Boost"]},
+    "S_WYR_Wyrmsway_FailSkeleton_006_7c7df1a0-3f5d-41fa-98b6-27da6e7046cb":{"Passives":["CX_Ranger_Boost"]},
+    "S_WYR_Wyrmsway_FailSkeleton_003_6b806cf1-91ee-45d4-a10a-7a20e5308128":{"Passives":["CX_Fighter_Boost"],"HealthOverride":80},
+    "S_WYR_Wyrmsway_FailSkeleton_039_265972ca-3ea0-4cf1-b671-d9143671051a":{"Passives":["CX_Paladin_Boost"]},
+    "S_WYR_Wyrmsway_FailSkeleton_001_370171b4-1740-48e1-9208-b6df397524fa":{"Passives":["CX_Fighter_Boost"],"HealthOverride":80},
+    "S_WYR_Wyrmsway_FailSkeleton_000_487f9e3d-8d34-45b3-bb47-a3f956e6578d":{"Passives":["CX_Ranger_Boost"],"HealthOverride":80},
+    "S_WYR_Wyrmsway_FailSkeleton_002_318690af-cad4-484d-b7ce-6f260bff1dea":{"Passives":["CX_Fighter_Boost"],"HealthOverride":80},
+    "S_WYR_Wyrmsway_FailSkeleton_009_1d2a929c-ca32-461b-97d5-e117bce68775":{"Passives":["CX_Fighter_Boost"],"HealthOverride":80},
+    "S_WYR_Wyrmsway_FailSkeleton_010_5f4e5fc6-1e40-4e87-87ec-0ed8c00c91ed":{"Passives":["CX_Barbarian_Boost"],"HealthOverride":80},
+    "S_WYR_Wyrmsway_FailSkeleton_014_6dc31bde-63db-472a-ae9d-58851dd0efd8":{"Passives":["CX_Spells_L1", "CX_Spells_L1C", "CX_Spells_L2", "CX_Spells_L2C"],"Spells":["Target_ChillTouch"]},
+    "S_WYR_Wyrmsway_FailSkeleton_012_620809ae-6afa-4b56-9434-727dd9da8e6d":{"Passives":["CX_Fighter_Boost"],"HealthOverride":80},
+    "S_WYR_Wyrmsway_FailSkeleton_011_84bd785a-d74e-416f-8355-8b6569e92b6a":{"Passives":["CX_Fighter_Boost"],"HealthOverride":80},
+    "S_WYR_Wyrmsway_FailSkeleton_004_0a38a3bc-7e62-4f46-888d-a597e287d394":{"Passives":["CX_Barbarian_Boost"],"HealthOverride":80},
+    "S_WYR_Wyrmsway_FailSkeleton_015_f8250eb8-e6e6-4ca9-b103-21382a5478a5":{"Passives":["CX_Ranger_Boost"]},
+    "S_WYR_Wyrmsway_FailSkeleton_008_dd31c8a6-51b3-4a12-856d-60441396aa67":{"Passives":["CX_Ranger_Boost"]},
+    "S_WYR_Wyrmsway_FailSkeleton_013_c7710aab-9c59-4a3d-9c84-910a57842cef":{"Passives":["CX_Ranger_Boost"]},
+    "S_WYR_Wyrmsway_FailSkeleton_007_e8c114de-4350-4b8b-aa09-645b5aaec7f3":{"Passives":["CX_Spells_L1", "CX_Spells_L1C", "CX_Spells_L2", "CX_Spells_L2C", "CX_Spells_L3"],"Spells":["Target_ChillTouch", "Target_InflictWounds", "Target_VampiricTouch", "Target_MAG_Spectator_FearRay"]},
+    "S_WYR_Wyrmsway_FailSkeleton_026_f2ca60b7-feea-4a2b-80d7-5916b2aa4027":{"Passives":["CX_Fighter_Boost"],"HealthOverride":80},
+    "S_WYR_Wyrmsway_FailSkeleton_027_b88bedfd-30df-40cd-8513-47151ba4d5b9":{"Passives":["CX_Fighter_Boost"],"HealthOverride":80},
+    "S_WYR_Wyrmsway_FailSkeleton_028_6f0b51e5-0d95-417f-bfe2-3cdd46c65e4d":{"Passives":["CX_Paladin_Boost"],"Spells":["Target_FlameStrike"]},
+    "S_WYR_Wyrmsway_FailSkeleton_023_0235346a-a6c4-404c-aa58-2acb1e1b6edb":{"Passives":["CX_Spells_L1", "CX_Spells_L1C", "CX_Spells_L2", "CX_Spells_L2C"],"Spells":["Target_ChillTouch"]},
+    "S_WYR_Wyrmsway_FailSkeleton_024_aee318d3-62b8-4b9c-95f4-51b67f220888":{"Passives":["CX_Ranger_Boost"]},
+    "S_WYR_Wyrmsway_FailSkeleton_025_34109004-4e2a-4197-9802-9d360766da7e":{"Passives":["CX_Fighter_Boost"],"HealthOverride":80},
+    "S_WYR_Wyrmsway_FailSkeleton_029_0617428e-a5e5-4d7a-981d-d2a6fcfa1b99":{"Passives":["CX_Spells_L1", "CX_Spells_L1C", "CX_Spells_L2", "CX_Spells_L2C"],"Spells":["Target_ChillTouch"]},
+    "S_WYR_Wyrmsway_FailSkeleton_030_b8280b37-4132-4434-b842-2b04970ba19e":{"Passives":["CX_Ranger_Boost"]},
+    "S_WYR_Wyrmsway_FailSkeleton_016_a70fc840-b1c4-4afb-b86e-8e50ee8e8ba7":{"Passives":["CX_Ranger_Boost"]},
+    "S_WYR_Wyrmsway_FailSkeleton_013_20010a19-e43b-49fc-99fc-346e7fb7d33a":{"Passives":["CX_Ranger_Boost"]},
+    "S_WYR_Wyrmsway_FailSkeleton_022_e34a01fa-3722-4fe6-95f7-3e628a1bb4a7":{"Passives":["CX_Spells_L1", "CX_Spells_L1C", "CX_Spells_L2", "CX_Spells_L2C"],"Spells":["Target_ChillTouch"]},
+    "S_WYR_Wyrmsway_FailSkeleton_020_23b8e4d1-edbb-461f-adec-2e4025f8ece1":{"Passives":["CX_Paladin_Boost"],"Spells":["Target_FlameStrike"]},
+    "S_WYR_Wyrmsway_FailSkeleton_018_54fbd8ae-3141-4812-b992-9c5d6f61de0e":{"Passives":["CX_Ranger_Boost"]},
+    "S_WYR_Wyrmsway_FailSkeleton_019_fe93db0d-162a-4a48-a5cd-fb4ae0988482":{"Passives":["CX_Fighter_Boost"],"HealthOverride":80},
+    "S_WYR_Wyrmsway_FailSkeleton_021_f61d948b-26c8-4022-8b20-3ff6540d6480":{"Passives":["CX_Fighter_Boost"],"HealthOverride":80},
+    "S_LOW_PrisonGuard01_6dd2049c-413c-4c68-b58f-2a0cf5094053":{"Passives":["CX_Paladin_Boost"]},
+    "S_LOW_Elfsong_RatSwarmGroup_03_Rat_007_c8ae9dc7-cfdd-48bc-8ec8-1aa78f871534":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_05_Rat_006_7cc4f36e-e41c-4c7f-9b1b-3e73220f50b4":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_03_Rat_003_3289c166-6b8c-4420-bd27-fc335d1e786f":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_03_Rat_004_8ee0159f-8fef-4167-a198-9245111d5b07":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_05_Rat_005_7f1e55ba-093d-451c-be1f-e0cb5320fdc9":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_05_Rat_007_8bdf06f2-0fb6-4a09-99cc-9b812a00efc2":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_01_Rat_006_914b09cf-a7ed-4717-b7e4-d53b14f0a620":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_05_Rat_001_e5108c6c-150e-43dc-958b-d06ef3345e89":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_03_Rat_006_3b3b8148-28d0-4acf-9dde-992fb8ae30ff":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_03_Rat_002_94191166-34c7-4ba3-93ac-50e9e1448d4b":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_01_Rat_005_d17c1cb4-0198-4cc7-a417-84ff974b628b":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_05_Rat_002_1e1746dc-1c50-4c8c-9d72-1e11746cafd5":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_05_Rat_003_e6662992-6677-49de-b091-0d070c76061c":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_01_Rat_004_d8249bc4-936a-40f3-b93a-5aaeb9de4df5":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_03_Rat_005_339d4f56-fa3b-4c5d-b52d-50b7ff375a06":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_01_Rat_007_8703dfd9-14d7-4c20-bc31-38969470f405":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_03_Rat_001_e5644356-fadc-48e6-9d92-ba71a8eb9276":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_05_Rat_004_69a46cf7-8b87-4416-addb-2f56cdafb24a":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_01_Rat_002_0caa43da-c0c4-4ffe-90d0-558eee767621":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_01_Rat_003_f9f2e443-152e-47e7-958c-efd9cc96404a":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_04_Rat_003_cb980936-63a5-4848-b845-82153bc85700":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_01_Rat_001_88e924b7-8b1d-4f57-aa5d-506a17057044":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_04_Rat_004_ac3f3370-29b6-42e8-abdd-c63584687f1b":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_04_Rat_006_e4ad99d5-6882-41bc-b926-5c25f152bc8e":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_04_Rat_007_34146ded-333e-41b0-8110-5621dd165dd9":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_02_Rat_007_311d3c19-e564-498d-b1b5-a794f0b72ae0":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_04_Rat_002_a912b318-0314-45fc-b361-2c536c1d6a58":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_04_Rat_001_bb2f9751-072a-4c84-b07e-d793cc4aea14":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_02_Rat_001_83a3bfe2-7ced-4025-b762-f286b36d9855":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_04_Rat_005_805546b4-7bf1-4281-b2c9-e80c6be21420":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_02_Rat_004_4f8b99b4-523b-4ef7-9c19-18ece39b1983":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_02_Rat_006_cd79cc46-e3b0-45c7-a6fa-65e489363e4e":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_02_Rat_003_08f9cd23-fe35-4b15-88d4-630d37d29a18":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_02_Rat_005_442d2059-ae56-4d11-8fca-a842ef8863ae":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_02_Rat_002_9647d611-7ab0-4f4e-8c5c-6b3630c41892":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_RatSwarmGroup_02_Rat_008_28a29b0a-bf69-4b8c-b971-83b3ff334b71":{"Spells":["Target_Bite_GiantSpider"]},
+    "S_LOW_Elfsong_GithyankiShield_Paladin_54467aa9-33dd-41c4-bd77-87a71ed22c16":{"Passives":["ExtraAttack_2", "TAD_PsionicDominance"]},
+    "S_LOW_Elfsong_GithyankiShield_Reinforcement_Melee_002_2093cfe8-d1dd-4749-8db6-c820b9413aab":{"Passives":["TAD_PsionicBacklash"]},
+    "S_LOW_Elfsong_GithyankiShield_Reinforcement_Melee_001_c6e7a048-f452-4332-8ef0-a5403bc9b5a1":{"Passives":["TAD_PsionicBacklash"]},
+    "S_LOW_Elfsong_GithyankiShield_Reinforcement_Ranger_003_d03b9d09-00bc-4c04-9653-52febfbdcd81":{"Passives":["CX_Ranger_Boost"]},
+    "S_LOW_Elfsong_GithyankiShield_Gish_001_88fea102-74eb-440c-86e6-3984e5f66de2":{"Passives":["CX_Spells_L6"]},
+    "S_LOW_Elfsong_GithyankiShield_Reinforcement_Melee_003_dd2877fe-a330-48c2-968b-208496b62db8":{"Passives":["UND_Nere_ShieldOfScreams"]},
+    "S_LOW_Elfsong_GithyankiShield_Gish_002_9d556b37-ea56-43ce-907f-a42505959279":{"Passives":["CX_Spells_L6"]},
+    "S_LOW_Elfsong_GithyankiShield_GateMaster_001_f9cf10cf-0901-4568-bc95-2a09cb3228f0":{"Passives":["CX_Spells_L3", "CX_Spells_L3C", "CX_Spells_L4", "CX_Spells_L4C"],"Spells":["Target_Haste", "Teleportation_DimensionDoor"]},
+    "S_LOW_Elfsong_GithyankiShield_GateMaster_002_cd381392-a5fd-48e6-9b63-4d201ff0004c":{"Passives":["CX_Spells_L3", "CX_Spells_L3C", "CX_Spells_L4", "CX_Spells_L4C"],"Spells":["Target_Haste", "Teleportation_DimensionDoor"]},
+    "S_LOW_Elfsong_GithyankiShield_Ranger_001_c8d0ee15-a8f5-469f-a949-244b5657590a":{"Passives":["CX_Spells_L1", "CX_Spells_L2", "CX_Cleric_Boost"]},
+    "S_LOW_MurderTribunal_DeathKnight_c16a1ebd-4390-4309-b5d5-30df6e1333f6":{"Passives":["CX_Paladin_Boost"],"Spells":["Shout_DestructiveWave"]},
+    "S_LOW_MurderTribunal_DeathKnight_Weak002_ed27cf22-f23c-47d3-ab02-8e7fc5035ed6":{"Passives":["CX_Rogue_Boost"]},
+    "S_LOW_MurderTribunal_DeathKnight_Weak001_55c50d4f-91f2-41ed-912f-82f6db2610b8":{"Passives":["CX_Spells_L1", "CX_Spells_L2", "CX_Cleric_Boost"]},
+    "S_LOW_MurderTribunal_Sarevok_ae9f784a-ea64-4297-95a7-8377e85231b6":{"Passives":["CX_Fighter_Boost"],"Spells":[""]},
+    "S_LOW_MurderTribunal_Amelyssan_eca47258-a8ad-4453-a12a-3f39f8e1ca32":{"Passives":["WildMagic", "MAG_FeyWildSpark_WildMagic_Passive"],"Spells":["Target_Invisibility_Greater"]},
+    "S_LOW_MurderTribunal_Illasera_df3a6de2-ba33-4717-9861-ea9f42d35fec":{"Passives":["WildMagic", "MAG_FeyWildSpark_WildMagic_Passive"],"Spells":["Target_Invisibility_Greater"]},
+    "S_LOW_MurderTribunal_MurderMerchant_68a568cd-1e5e-46f1-9c5f-53d3eed23bd5":{"Passives":["WildMagic", "MAG_FeyWildSpark_WildMagic_Passive"],"Spells":["Target_Invisibility_Greater"]},
+    "S_LOW_MurderTribunal_Sendai_565accd2-0fdc-423e-ad68-752988a509b4":{"Passives":["WildMagic", "MAG_FeyWildSpark_WildMagic_Passive"],"Spells":["Target_Invisibility_Greater"]},
+    "S_LOW_WaterElemental_4cb61416-f095-4fbb-aece-51f37b6bb4d6":{"Passives":["TWN_ApplyWET"]},
+    "S_LOW_LorroakanWaterMyrmidon_b9ed09f3-e67e-4498-aa24-5fecec718c07":{"Passives":["TWN_ApplyWET"]},
+    "S_LOW_LorroakanFireMyrmidon_4f9f5fc9-45a7-412d-b388-f8e31a2d1c6b":{"Passives":["MAG_Fire_Heat_Convergence_Passive", "MAG_Fire_HeatOnFireDamage_Gloves_Passive", "MAG_Fire_BurningOnDamaged_Cloak_Passive"]},
+    "S_LOW_LorroakanEarthMyrmidon_fb67df58-9801-4661-bfa7-460c5f02b0bc":{"Passives":["MAG_Thunder_Reverberation_Gloves_Passive", "MAG_Thunder_UnarmedAttack_Passive"]},
+    "S_LOW_Lorroakan_a9d4b71d-b0ef-429e-8210-6dc8be986ee9":{"Passives":["Alert", "WarCaster_Bonuses", "WarCaster_OpportunitySpell"],"Spells":["Zone_ConeOfCold", "Projectile_Disintegrate", "Projectile_ChainLightning", "Zone_Sunbeam", "Projectile_CursedTome_CurriculumofStrategy"]},
+    "S_LOW_LorroakanAirMyrmidon_fe3ad530-4bc1-436b-bffa-0e3d83a75782":{"Passives":["MAG_Thunder_Reverberation_Gloves_Passive"]},
+    "S_LOW_FatherCarrion_Ghast_Lower_d8141d00-5f80-4245-9a48-fe3651be6954":{"Passives":["MAG_TWN_Surgeon_ParalyzingCritical_Passive"]},
+    "S_LOW_FatherCarrion_Ghoul_003_08bfd546-b2c2-461d-83e5-fc86160b3bfc":{"Spells":["Projectile_GreenSporeCloud"]},
+    "S_LOW_FatherCarrion_CoffinMummy_000_d03067ac-43a7-435b-be97-558065b1f7d1":{"Passives":["HAV_Phasm_ParalizingAttack"]},
+    "S_LOW_FatherCarrion_Ghoul_001_ea1e4956-140f-4dda-a0eb-211744ec3fd0":{"Spells":["Projectile_GreenSporeCloud"]},
+    "S_LOW_FatherCarrion_b003409c-364f-4065-94bf-7436001d890e":{"Passives":["GraveMagic", "NecroticAttacks_DeathKnight"],"Spells":["Target_CircleOfDeath", "Projectile_NegativeEnergyFlood", "Projectile_FingerOfDeath_Apostle"]},
+    "S_LOW_FatherCarrion_CoffinMummy_004_ca673f78-bf5a-4170-9a3d-86956fd7320b":{"Spells":["Projectile_WhiteSporeCloud"]},
+    "S_LOW_FatherCarrion_CoffinMummy_002_2bb0196b-9bd6-4eb3-989f-29d14a8cd2d8":{"Passives":["HAV_Phasm_ParalizingAttack"],"Spells":["Projectile_WhiteSporeCloud"]},
+    "S_LOW_FatherCarrion_Ghoul_004_bbc46971-3203-44b2-8582-b8822b1d5d70":{"Spells":["Projectile_GreenSporeCloud"]},
+    "S_LOW_FatherCarrion_CoffinMummy_001_f7e60433-053d-4735-b542-658397785f7a":{"Passives":["HAV_Phasm_ParalizingAttack"],"Spells":["Projectile_WhiteSporeCloud"]},
+    "S_LOW_FatherCarrion_CoffinMummy_006_e6bd5cec-2691-4dc4-99ae-2461c87bb6ba":{"Passives":["HAV_Phasm_ParalizingAttack"]},
+    "S_LOW_BeachSahuagin_Sahuagin_Champion_01_36902e83-9823-418a-8481-8835e95d481c":{"Passives":["CX_Paladin_Boost"]},
+    "S_LOW_BeachSahuagin_Sahuagin_Ranger_02_a6a894e4-f042-43a2-9111-0421e2a43740":{"Passives":["CX_Ranger_Boost"]},
+    "S_LOW_BeachSahuagin_Sahuagin_Melee_01_576fa0c7-0227-41bd-9e1c-70bd4add32a2":{"Passives":["CX_Fighter_Boost"]},
+    "S_LOW_BeachSahuagin_Sahuagin_Melee_02_05be919c-feef-49ab-80bf-8463f8622bdf":{"Passives":["CX_Fighter_Boost"]},
+    "S_LOW_BeachSahuagin_Sahuagin_Melee_04_88d10dd5-b429-460f-945e-d5c797b8b1c7":{"Passives":["CX_Fighter_Boost"]},
+    "S_LOW_BeachSahuagin_Sahuagin_Melee_03_9514d67d-119f-41da-97bc-ab3d7704c06b":{"Passives":["CX_Fighter_Boost"]},
+    "S_LOW_GuildSmugglers_Smuggler_9f79f33b-fccf-44d5-a68b-7cd4f01b1b4e":{"Passives":["CX_Rogue_Boost"]},
+    "S_LOW_GuildSmugglers_Guard_002_8be5ed10-a4e2-41e9-839f-cdaa6c4d340c":{"Passives":["CX_Ranger_Boost", "CX_Cleric_Boost"]},
+    "S_LOW_GuildSmugglers_Guard_003_a7b70658-5f85-43db-b978-5076b1a56de1":{"Passives":["CX_Fighter_Boost"]},
+    "S_LOW_GuildSmugglers_Guard_001_b86be437-01de-4eb0-be7a-dd2894878ec9":{"Passives":["CX_Barbarian_Boost"]},
+    "S_LOW_AllandraGrey_32d78583-07c6-4160-9ec7-3a24b15149c8":{"Passives":["CX_Cleric_Boost", "ThunderboltStrike", "TempestuousMagic", "DestructiveWrath"],"Spells":["Target_SleetStorm", "Target_CallLightning", "Target_DivineStrike_Melee_Tempest"]},
+    "S_LOW_InjuredWaveservant_c3a7ec85-cb65-4ffe-b0a8-93789613039d":{"Passives":["CX_Cleric_Boost"],"Spells":["Target_DivineStrike_Melee_Tempest"]},
+    "S_LOW_Waveservant05_3995ac03-7410-468a-8b04-37d03409259d":{"Passives":["CX_Paladin_Boost"],"Spells":["Target_DivineStrike_Melee_Tempest"]},
+    "S_LOW_Waveservant04_28327055-7f42-4374-a483-3fd296fa26f6":{"Passives":["CX_Cleric_Boost"],"Spells":["Target_DivineStrike_Melee_Tempest"]},
+    "S_LOW_Waveservant03_eddd4c99-74bb-45d6-902b-f866f88e3f84":{"Passives":["CX_Paladin_Boost"],"Spells":["Target_DivineStrike_Melee_Tempest"]},
+    "S_LOW_Waveservant01_ab993a69-39be-47f4-9330-49d3e4958e12":{"Passives":["CX_Paladin_Boost"],"Spells":["Target_DivineStrike_Melee_Tempest"]},
+    "S_LOW_Waveservant02_f8b70d49-2ab7-4fcd-8203-aa7ae0fcd99c":{"Passives":["CX_Cleric_Boost"],"Spells":["Target_DivineStrike_Melee_Tempest"]},
+    "S_LOW_GuardWaveservant02_3e0733be-8f92-415d-b437-b4d6ffd0799b":{"Passives":["CX_Paladin_Boost"],"Spells":["Target_DivineStrike_Melee_Tempest"]},
+    "S_LOW_CellarWaveservant01_eb2f1d87-9d15-45bc-8899-15415c6cf6d2":{"Passives":["CX_Paladin_Boost"],"Spells":["Target_DivineStrike_Melee_Tempest"]},
+    "S_LOW_CellarWaveservant02_22aaad49-98de-43a2-ab2f-c7ab9a8df922":{"Passives":["CX_Cleric_Boost"],"Spells":["Target_DivineStrike_Melee_Tempest"]},
+    "S_LOW_VaultGuardWaveservant03_f362518e-a204-48b5-8400-f8e61e9323aa":{"Passives":["CX_Paladin_Boost"],"Spells":["Target_DivineStrike_Melee_Tempest"]},
+    "S_LOW_VaultGuardWaveservant02_e76f27c5-0799-472c-a6a0-9d7e714d0114":{"Passives":["CX_Cleric_Boost"],"Spells":["Target_DivineStrike_Melee_Tempest"]},
+    "S_LOW_VaultGuardWaveservant01_8f087672-72c6-4bfb-a10c-e15182a012e4":{"Passives":["CX_Cleric_Boost"],"Spells":["Target_DivineStrike_Melee_Tempest"]},
+    "S_LOW_VoloFate_Agitator_e896b270-21cd-4d5c-8b99-be87929f77f0":{"Passives":["CX_Spells_L3", "CX_Spells_L4", "MAG_Fire_BonusActionOnFireSpell_Passive"],"Spells":["HellishRebuke_2"],"HealthOverride":95},
+    "S_LOW_DevilsFee_Helsik_299a1c00-ff53-415e-ad8e-9bcbbae55597":{"Spells":["Shout_SpiritGuardians"]},
+    "S_LOW_DevilsFee_Imp_Ranged_001_51df7e50-4cc1-4dc2-bf1d-31868845b92f":{"Passives":["Sharpshooter_AllIn", "Sharpshooter_Bonuses"]},
+    "S_LOW_KurwinCoffin_KelemvorPriestess_74f08242-30d7-4ad5-a0d7-36aa75b213cc":{"Passives":["CX_Cleric_Boost", "CX_Spells_L5"],"Spells":["Target_Contagion_FleshRot"]},
+    "S_LOW_KurwinCoffin_W1_RisenZombie_000_ef33221b-8784-4ef5-8254-f5509bebf280":{"Spells":["Target_Contagion_FleshRot"]},
+    "S_LOW_KurwinCoffin_W1_RisenZombie_001_33f12cb2-a215-4477-9b63-e808943e5622":{"Spells":[""]},
+    "S_LOW_KurwinCoffin_W2_RisenSkeleton_001_ebeac71b-70c2-4967-8db4-6479cf95d156":{"Spells":[""]},
+    "S_LOW_KurwinCoffin_W1_RisenZombie_002_0d85e2c0-8bdd-4054-863e-9ae48d26d3e0":{"Spells":["Target_Contagion_FleshRot"]},
+    "S_LOW_KurwinCoffin_W1_RisenGreaterZombie_000_a249e576-9590-44bb-8861-727878ff6378":{"Passives":["HAV_Phasm_ParalizingAttacks"],"Spells":["Target_Contagion_FleshRot"]},
+    "S_LOW_KurwinCoffin_W3_RisenSkeleton_Giant_49cc5f9e-72e3-440f-be8b-2c4ecf5964b5":{"Passives":["CX_Spells_L5", "CX_Spells_L4"],"Spells":["Target_CircleOfDeath", "Target_Blight", "Projectile_NegativeEnergyFlood"]},
+    "S_LOW_KurwinCoffin_W2_RisenSkeleton_000_cddec41d-e04d-4f92-831c-5b69f9ca3935":{"Passives":["CX_Spells_L1", "CX_Spells_L2"],"Spells":["Target_SHA_Skeleton_WitheringMark", "Target_InflictWounds"]},
+    "S_LOW_KurwinCoffin_W2_RisenZombie_000_32184af9-a79c-4441-8984-f88222c6beee":{"Spells":["Target_Contagion_FleshRot"]},
+    "S_LOW_KurwinCoffin_W2_RisenZombie_002_b3d5ce26-a490-44cb-8d3b-c608dc970290":{"Passives":["HAV_Phasm_ParalizingAttacks"],"Spells":[""]},
+    "S_LOW_KurwinCoffin_W1_RisenGreaterZombie_001_12ff4a57-71d3-4728-b82e-79881aeb2422":{"Passives":["CX_Spells_L1", "CX_Spells_L2"],"Spells":["Target_SHA_Skeleton_WitheringMark", "Target_InflictWounds"]},
+    "S_LOW_KurwinCoffin_W2_RisenSkeleton_002_81fe4430-ff34-4d74-993a-f96596b57f15":{"Passives":["CX_Spells_L1", "CX_Spells_L2"],"Spells":["Target_SHA_Skeleton_WitheringMark", "Target_InflictWounds"]},
+    "S_LOW_KurwinCoffin_W1_RisenSkeleton_001_7dd25316-fcd2-4be0-9e95-4329c3c63e15":{"Passives":["CX_Spells_L1", "CX_Spells_L2"],"Spells":["Target_SHA_Skeleton_WitheringMark", "Target_InflictWounds"]},
+    "S_LOW_KurwinCoffin_W2_RisenGreaterZombie_000_f34c2984-6a8d-4be2-9194-41b58fd76b78":{"Passives":["HAV_Phasm_ParalizingAttacks", "CX_Spells_L1", "CX_Spells_L2"],"Spells":["Target_SHA_Skeleton_WitheringMark", "Target_InflictWounds"]},
+    "S_LOW_KurwinCoffin_W3_RisenSkeleton_002_8fa9a234-af17-45ec-a886-ee5b9801cb30":{"Passives":["CX_Spells_L1", "CX_Spells_L2"],"Spells":["Target_SHA_Skeleton_WitheringMark", "Target_InflictWounds"]},
+    "S_LOW_KurwinCoffin_W3_RisenZombie_001_975a3277-5fc6-4bfc-9d4f-929ca55ac55b":{"Spells":["Target_Contagion_FleshRot"]},
+    "S_LOW_KurwinCoffin_W2_RisenZombie_001_4f7f5f28-0a47-41a1-b296-0b10de15f9ab":{"Passives":["HAV_Phasm_ParalizingAttacks"],"Spells":[""]},
+    "S_LOW_KurwinCoffin_W1_RisenSkeleton_000_adafe912-0ea8-4672-831f-89379f7dbbb3":{"Passives":["CX_Spells_L1", "CX_Spells_L2"],"Spells":["Target_SHA_Skeleton_WitheringMark", "Target_InflictWounds"]},
+    "S_LOW_KurwinCoffin_W3_RisenSkeleton_001_9f84f821-a388-451d-87e4-3cce8312a40a":{"Passives":["CX_Spells_L1", "CX_Spells_L2"],"Spells":["Target_SHA_Skeleton_WitheringMark", "Target_InflictWounds"]},
+    "S_LOW_KurwinCoffin_W3_RisenZombie_000_efe97f82-580d-4b63-865f-153ef65d8ee9":{"Spells":["Target_Contagion_FleshRot"]},
+    "S_LOW_KurwinCoffin_W3_RisenSkeleton_001_53e41096-751f-44c5-8868-8a1889d3b2ec":{"Passives":["CX_Spells_L1", "CX_Spells_L2"],"Spells":["Target_SHA_Skeleton_WitheringMark", "Target_InflictWounds"]},
+    "S_LOW_KurwinCoffin_W3_RisenZombie_002_fe7ca260-5c50-4280-8dad-60378f86f8a6":{"Passives":["CX_Spells_L1", "CX_Spells_L2"],"Spells":["Target_SHA_Skeleton_WitheringMark", "Target_InflictWounds"]},
+    "S_LOW_KurwinCoffin_W3_RisenGreaterZombie_000_db09a47c-c7ec-40e9-8d3d-d13b8a071106":{"Passives":["CX_Spells_L1", "CX_Spells_L2"],"Spells":["Target_SHA_Skeleton_WitheringMark", "Target_InflictWounds"]},
+    "S_LOW_HagSurvivors_Crab_04_cded4e77-ffde-4e7e-9e14-10761b46205b":{"Passives":["TAD_PsionicBacklash", "MagicResistance", "MageSlayer_AttackCaster", "MistyEscape"]},
+    "S_LOW_HagSurvivors_HagSpy_0cb0a73b-1f97-4481-b320-b8fff88cfe0f":{"Passives":["CX_Spells_L5"],"Spells":["Target_CallLightning", "Target_FreezingSphere"]},
+    "S_LOW_HagSurvivors_Crab_03_709956be-ab4c-422d-ba68-6ca45d652df8":{"Passives":["TAD_PsionicBacklash", "MagicResistance", "MageSlayer_AttackCaster", "MistyEscape"]},
+    "S_LOW_HagSurvivors_Crab_02_6509cc72-4648-44ec-a0c2-598a2b85b3e0":{"Passives":["TAD_PsionicBacklash", "MagicResistance", "MageSlayer_AttackCaster", "MistyEscape"]},
+    "S_LOW_HagSurvivors_Crab_06_99b9a9d3-8d33-409f-a640-a3f7418497a7":{"Passives":["TAD_PsionicBacklash", "MagicResistance", "MageSlayer_AttackCaster", "MistyEscape"]},
+    "S_LOW_HagSurvivors_Adrielle_aa38af5c-9c75-4b2e-89e3-0cc1b995dbd6":{"Passives":["CX_Cleric_Boost"]},
+    "S_LOW_HagSurvivors_Crab_05_61c4494e-dea4-499c-a387-c1ee47cb9fc3":{"Passives":["TAD_PsionicBacklash", "MagicResistance", "MageSlayer_AttackCaster", "MistyEscape"]},
+    "LOW_HagSurvivor_Crab_a8967b3d-8c55-af73-09ed-433d88837fb3":{"Passives":["TAD_PsionicBacklash", "MagicResistance", "MageSlayer_AttackCaster", "MistyEscape"]},
+    "LOW_HagSurvivor_Crab_89a935a5-d71f-03dc-27d5-79d506d38d6e":{"Passives":["TAD_PsionicBacklash", "MagicResistance", "MageSlayer_AttackCaster", "MistyEscape"]},
+    "LOW_HagSurvivor_Crab_7925ea3c-9ae7-ca3e-c8af-decbf3462683":{"Passives":["TAD_PsionicBacklash", "MagicResistance", "MageSlayer_AttackCaster", "MistyEscape"]},
+    "LOW_HagSurvivor_Crab_78f893de-08b7-ffd6-087a-74c404c617fd":{"Passives":["TAD_PsionicBacklash", "MagicResistance", "MageSlayer_AttackCaster", "MistyEscape"]},
+    "LOW_HagSurvivor_Crab_77463780-64ac-36f4-cb4c-88956d2e544d":{"Passives":["TAD_PsionicBacklash", "MagicResistance", "MageSlayer_AttackCaster", "MistyEscape"]},
+    "S_LOW_BlushingMermaid_DisguisedRedcap_05_357299a8-b8c2-4b99-92f8-761fd697c435":{"Passives":["CX_Barbarian_Boost"]},
+    "S_LOW_BlushingMermaid_DisguisedRedcap_02_ba363354-3341-41e9-ae92-c3fe8a07a9ea":{"Passives":["CX_Fighter_Boost"]},
+    "S_LOW_BlushingMermaid_DisguisedRedcap_06_8a9a0273-3a3b-47ee-b362-5b83903458fb":{"Passives":["CX_Barbarian_Boost"]},
+    "S_LOW_BlushingMermaid_DisguisedRedcap_03_76784911-9f0d-48f6-8e0d-b609345b2be2":{"Passives":["CX_Ranger_Boost"]},
+    "S_LOW_BlushingMermaid_DisguisedRedcap_01_efa9ccb1-4ba2-4467-82ef-b8ed63b867a4":{"Passives":["CX_Rogue_Boost"]},
+    "S_LOW_BlushingMermaid_DisguisedRedcap_04_9f218fa2-418d-46ee-b38d-1708f25314ec":{"Passives":["CX_Rogue_Boost"]},
+    "S_LOW_BlushingMermaid_MaskedVictim_02_518fab8f-2d1d-46c8-9a45-9045156d0053":{"Passives":["CX_Monk_Boost"]},
+    "S_LOW_BlushingMermaid_QuenoraGrizly_9d475536-34f0-4a6f-9191-3a635b81a232":{"Passives":["PactOfTheBlade", "Mobile_PassiveBonuses", "Mobile_DashAcrossDifficultTerrain", "Mobile_CounterAttackOfOpportunity", "CX_Rogue_Boost"],"Spells":["Projectile_EldritchBlast"]},
+    "S_LOW_BlushingMermaid_MaskedVictim_01_453e3292-b7ff-4a13-873a-82da3bfc2511":{"Passives":["DiscipleOfLife", "BardicInspiration_d8", "Dwarf_DwarvenResilience", "BardSpellcasting", "MAG_BardicInspiration_Heal_Hat_Passive"],"Spells":[""]},
+    "S_LOW_BlushingMermaid_MaskedVictim_03_0406349d-d0fc-4bf5-8d18-5b8b8c9e6456":{"Passives":["CX_Barbarian_Boost", "Tough"]},
+    "S_HAG_Hag_c457d064-83fb-4ec6-b74d-1f30dfafd12d":{"Passives":["CX_Spells_L5", "ElementalAdept_Acid"],"Spells":["Projectile_VitriolicSphere", "Target_Cloudkill", "Wall_WallOfThorns", "Target_PhantasmalKiller", "Target_InsectPlague"]},
+    "S_LOW_Park_BhaalAssassin03_f28f8cd6-dc57-434e-a3ac-ed13cd9ed952":{"Passives":["CX_Monk_Boost"]},
+    "S_LOW_Park_BhaalAssassin04_a9bee6df-338e-4df2-a5b6-3a2f6fcebade":{"Passives":["CX_Rogue_Boost"]},
+    "S_LOW_Park_BhaalAssassin02_8bfe6f21-58ed-4963-8f05-10991075e144":{"Passives":["CX_Ranger_Boost"]},
+    "S_LOW_Park_Bhaal_Leader_ecb818a4-d67d-4e7f-b917-552654a4cb61":{"Spells":["Shout_AuraOf_Protection"]},
+    "S_LOW_Park_BhaalAssassin01_500d7c8c-60a6-40c6-86b0-82db100b530e":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeSendai_Corpse_Duergar_001_3108bebd-3c92-42f3-921b-00930dd89632":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeSendai_Corpse_Duergar_008_80a1eda5-59e0-435a-b8e9-32d35751b590":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeSendai_Corpse_Duergar_005_9df1fad0-4829-4452-9884-c3d41543f3e8":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeSendai_Corpse_MindFlayer_000_e43c2794-8849-48bb-aecd-04c08d456108":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeSendai_Corpse_Duergar_007_cac453e3-20d1-48aa-a94c-dd0f6f16a4e7":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeSendai_Corpse_Duergar_009_7be1657c-eb46-4c6d-ae63-96dccd09ecd4":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeSendai_Corpse_Duergar_002_fcf27a61-1b80-4496-93ff-622a41c3ab61":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeSendai_Corpse_Duergar_004_7cd1a7a0-1ca6-4672-a385-e3b82afd2ca3":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeCaptainEgeissag_Corpse_000_f191986a-d62d-4634-8abe-046d6852d53f":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeSendai_Corpse_EarthElemetal_000_b1359ff1-cf7f-4176-ba48-99841c96a8cd":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeDiaytha_Corpse_000_b42e68ed-d168-4d20-a201-5ef340364301":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeSendai_Corpse_Duergar_006_3c400dc0-7a9e-4cda-9cfe-7f743337be3b":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeSendai_Corpse_000_1a5a300b-4c08-46a7-ada1-7cca3f0a26a3":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeSendai_Corpse_001_86ccda32-2196-40fb-92ea-ed534c8021ae":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeSendai_Corpse_006_3470abfd-e9a1-4ad2-a48d-242dea47a32a":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "Humans_Female_Cultist_Bhaal_DeathsHead_920647a1-844c-d260-d7e6-f2a4e7dc737d":{"Passives":["UND_Nere_ShieldOfScreams", "PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeSendai_Corpse_005_ba69d500-d9ce-4996-864b-34794e6a0663":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeSendai_Corpse_004_ce8bd9fc-97a8-4630-9d16-e1cfe575b97a":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeSendai_Corpse_002_36781aa3-87ed-437a-b0af-a580a7c38c5a":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_FakeSendai_Corpse_003_0c90dc83-f0c3-4c74-a2c3-c2a247f88e32":{"Passives":["PERMANENTLY_HOSTILE"]},
+    "S_LOW_Guildhall_Bodyguard_001_0962e1ca-7d48-4fde-af0e-250091e9d4e1":{"Passives":["CX_Rogue_Boost", "CX_Paladin_Boost"],"Spells":["Target_DeathWard"]},
+    "S_LOW_Guildhall_Bursar_Guard_001_9f22df22-dc41-4126-a2ce-fd86011c9427":{"Passives":["CX_Rogue_Boost"]},
+    "S_LOW_Guildhall_Zhent_Mercenary_007_6dc1a56a-19b7-4a4a-9530-ec41ba9dfef7":{"Passives":["CX_Magic_Boost", "CX_Spells_L1", "CX_Spells_L1C", "CX_Spells_L2", "CX_Spells_L2C", "CX_Spells_L3", "CX_Spells_L3C"],"HealthOverride":150},
+    "S_LOW_Guildhall_Zhent_Mercenary_004_6e6853b1-b422-4c18-b08b-e4c3a96b3b0e":{"Passives":["CX_Paladin_Boost"],"Spells":["Target_LayOnHands_BigHeal"]},
+    "S_LOW_Guildhall_Zhent_Mercenary_003_fbffc206-5f7d-4d27-9fc8-6080a7212602":{"Passives":["CX_Druid_Boost"]},
+    "S_LOW_Guildhall_Bursar_Guard_002_2d55fd30-032e-43a8-87ad-40c89070f28e":{"Passives":["CX_Spells_L1", "CX_Spells_L2", "WarCaster_Bonuses", "CX_Spells_L3", "CX_Spells_L4", "CX_Spells_L5", "WarCaster_OpportunitySpell", "CX_Spells_L6"],"Spells":["Target_Entangle", "Target_FaerieFire", "Shout_WildShape_Combat", "Shout_WildShape_Wolf_Dire", "Target_HealingWord", "Target_FlamingSphere", "Target_LesserRestoration", "Target_SpikeGrowth", "Target_CallLightning", "Zone_LightningBolt", "Shout_AuraOfVitality", "Target_Blight", "Target_Polymorph", "Target_CureWounds_Mass", "Target_ConjureElemental_Elemental_Fire_NPC", "Target_FreezingSphere"]},
+    "S_LOW_Guildhall_Zhent_Mercenary_002_1140624b-d27c-43ec-9329-b45d883c900d":{"Passives":["CX_Ranger_Boost"]},
+    "S_LOW_Guildhall_Zhent_Mercenary_001_5ac9c7ec-d26f-404e-bd17-e9d3dad000c4":{"Passives":["CX_Ranger_Boost"]},
+    "S_LOW_Guildhall_Zhent_Mercenary_006_9a307843-3958-4c07-ace9-f1c04b5af558":{"Passives":["CX_Monk_Boost"]},
+    "S_LOW_Guildhall_Zhent_Mercenary_008_7d31c0db-57d7-4c7e-956c-0cb67d5ab60b":{"Passives":["CX_Ranger_Boost"]},
+    "S_LOW_Guildhall_Bodyguard_003_1a070383-da33-4107-90ef-68e2fdc03ac0":{"Passives":["CX_Ranger_Boost"]},
+    "S_LOW_Guildhall_Bartender_00c74e3b-5880-4525-9558-860e4f7c77e2":{"Passives":["CX_Barbarian_Boost"]},
+    "S_LOW_Guildhall_Member_009_7acea0a6-6e17-477c-b854-18e780b43b0e":{"Passives":["CX_Fighter_Boost"]},
+    "S_LOW_Guildhall_Bodyguard_000_6d430ca2-660e-4000-bcf4-8ee5e2c88440":{"Passives":["CX_Barbarian_Boost"]},
+    "S_LOW_Guildhall_Zhent_LeaderBackup_35352384-a2ea-464b-96e0-1c6554b2f6b8":{"Passives":["CX_Ranger_Boost"]},
+    "S_LOW_Guildhall_Bodyguard_004_df4e07cc-8e02-4c66-94b9-8f4e34eccec0":{"Passives":["CX_Rogue_Boost"]},
+    "S_LOW_Guildhall_Bodyguard_002_053734fb-4c70-4550-ae64-4b45d4bf59fb":{"Passives":["CX_Paladin_Boost"]},
+    "S_LOW_Bhaalist01_336fe388-afbe-4b9b-a86e-aec927658019":{"Passives":["UND_Nere_ShieldOfScreams"]},
+    "S_LOW_Bhaalist04_42bbff34-15a2-4802-a6de-262ef040aa9f":{"Passives":["CX_Magic_Boost", "CX_Spells_L4", "CX_Spells_L5"],"Spells":["Projectile_EldritchBlast", "Target_Hex", "Shout_SpiritShroud"],"HealthOverride":100},
+    "S_LOW_Bhaalist02_a8f0d3b8-2b55-4f1e-acf7-ef2767544d8a":{"Passives":["CX_Paladin_Boost", "UnlockedWarlockSpellSlotLevel3"],"Spells":["Projectile_EldritchBlast", "Target_Hex", "Shout_SpiritShroud"],"HealthOverride":100},
+    "S_LOW_Bhaalist03_abce7142-0fad-4801-8d34-4bfeffec23da":{"Passives":["CX_Ranger_Boost"],"HealthOverride":100},
+    "S_LOW_GreaseOoze_007_12526153-eb28-46a7-a4f5-10291ae12cf5":{"Passives":["ExtraAttack"]},
+    "S_LOW_FireWizard_5a4f7f77-43c9-4f84-b3f4-4076d876ccde":{"Passives":["MAG_Fire_BonusActionOnFireSpell_Passive", "MAG_Heat_Fire_Robe_Passive", "LOW_HouseOfHope_Merregon_Fire", "ElementalAdept_Fire"],"Spells":["Wall_WallOfFire"],"HealthOverride":250},
+    "S_LOW_GreaseMephit_008_1c4c8e46-9bce-4876-8b21-1ad6c96e0025":{"Passives":["ExtraAttack"],"HealthOverride":75},
+    "S_LOW_GreaseMephit_007_f56d1b45-4cc0-4eef-b479-52f7e6d121a8":{"Passives":["ExtraAttack"]},
+    "S_LOW_GreaseMephit_006_e35cfdbd-fd1f-4a2e-90d5-fcefc7586ead":{"Passives":["ExtraAttack"]},
+    "S_LOW_GreaseMephit_000_3b4e1f46-adef-4aed-81c4-345db1ee7668":{"Passives":["ExtraAttack"]},
+    "S_LOW_GreaseMephit_002_5dbf7fec-24aa-47de-b5fe-a00231d6f5a2":{"Passives":["ExtraAttack"]},
+    "S_LOW_GreaseMephit_003_69e8af86-77dd-4f37-962c-04b012c339dd":{"Passives":["ExtraAttack"]},
+    "S_LOW_GreaseMephit_004_917cd8d0-03ca-4104-b9e2-fd22432607bd":{"Passives":["ExtraAttack"]},
+    "S_LOW_GreaseOoze_000_8bef6a0e-cf8c-49c7-a568-750a4c4638bf":{"Passives":["ALCH_Oil_Combustion_Passive", "ExtraAttack_2"]},
+    "S_LOW_MinscHideout_SluiceGuard_000_344ca9a0-d7ac-4a22-b859-6e99b6c45a18":{"Passives":["CX_Rogue_Boost"],"HealthOverride":150},
+    "LOW_BhaalCultist_Crow_000_c39c5c99-6fba-488f-996b-8205ff436fdc":{"Passives":["Evasion", "MAG_Acid_AcidDamageOnWeaponAttack_Ring_Passive"]},
+    "LOW_BhaalCultist_Crow_003_5ffe3104-542e-4cb3-92d7-457cb4f1cca1":{"Passives":["Evasion", "MAG_Acid_AcidDamageOnWeaponAttack_Ring_Passive"]},
+    "LOW_BhaalCultist_Crow_002_66f1fee5-0a9e-4d98-b29c-19caa6680b3a":{"Passives":["Evasion", "MAG_Acid_AcidDamageOnWeaponAttack_Ring_Passive"]},
+    "LOW_BhaalCultist_Crow_006_6d176306-05e6-4bad-bcf4-a00c0b7ff015":{"Passives":["Evasion", "MAG_Acid_AcidDamageOnWeaponAttack_Ring_Passive"]},
+    "LOW_BhaalCultist_Crow_001_533d3286-9870-4073-93d3-bfc1b9fa36ac":{"Passives":["Evasion", "MAG_Acid_AcidDamageOnWeaponAttack_Ring_Passive"]},
+    "LOW_BhaalCultist_Crow_005_4deeeb08-3fa4-4466-b920-22b83770fb0d":{"Passives":["Evasion", "MAG_Acid_AcidDamageOnWeaponAttack_Ring_Passive"]},
+    "LOW_BhaalCultist_Crow_004_165bd441-1663-4f16-82a0-c3f3aab1dc35":{"Passives":["Evasion", "MAG_Acid_AcidDamageOnWeaponAttack_Ring_Passive"]},
+    "S_LOW_VoicelessPenitent_f4039bb7-7456-4c35-a45a-20aa2f23ccf5":{"Passives":["CX_Paladin_Boost"]},
+    "S_LOW_AncientLair_GreaterZombie_001_64b89b9c-657a-40d3-8232-3931e6c72aaf":{"Passives":["MAG_SarevokArmor_WitheringBarrier_Passive"]},
+    "S_LOW_AncientLair_GreaterZombie_002_ba701b3d-20ec-4225-8a69-3a8be31b4c4f":{"Passives":["MAG_SarevokArmor_WitheringBarrier_Passive"]},
+    "S_LOW_AncientLair_CrawlingClaw_000_7f5d8047-66dd-4cec-a992-98d7fe7d9263":{"Passives":["ExtraAttack"]},
+    "S_LOW_AncientLair_CrawlingClaw_001_b174f4f8-7a3e-49d9-90c4-a254bbee9c41":{"Passives":["MAG_SarevokArmor_WitheringBarrier_Passive"],"HealthOverride":30},
+    "S_LOW_AncientLair_CrawlingClaw_003_dfb5ea37-aebf-45c5-a658-d69534414132":{"Passives":["ExtraAttack"],"HealthOverride":30},
+    "S_LOW_AncientLair_CrawlingClaw_002_8aa6c119-d8f2-4c47-877b-425645df061c":{"Passives":["ExtraAttack"],"HealthOverride":30},
+    "S_LOW_AncientLairMummy_001_65b33bdc-3126-4962-a712-4175007d9e54":{"Passives":["MAG_SarevokArmor_WitheringBarrier_Passive", "LegendaryAction_Apostle_Gaze", "MAG_BansheeBless_Passive"]},
+    "S_LOW_AncientLairMummy_005_331ffe6e-00c9-4f79-94d4-c6d65b4a9093":{"Passives":["MAG_SarevokArmor_WitheringBarrier_Passive", "LegendaryAction_Apostle_Gaze", "MAG_BansheeBless_Passive"]},
+    "S_LOW_AncientLairMummy_004_d526d72a-599c-464e-b7fe-84128d496b3c":{"Passives":["MAG_SarevokArmor_WitheringBarrier_Passive", "LegendaryAction_Apostle_Gaze", "MAG_BansheeBless_Passive"]},
+    "S_LOW_AncientLair_CrawlingClaw_008_bfaacde1-8b90-4846-b474-5d8f8f81c4f6":{"Passives":["ExtraAttack"],"HealthOverride":30},
+    "S_LOW_AncientLair_CrawlingClaw_005_387ea8f7-eed3-46b0-81bc-a2ecc280550c":{"Passives":["ExtraAttack"]},
+    "S_LOW_AncientLair_CrawlingClaw_007_fdc82f15-f593-4f03-a9da-26505e66e8e1":{"Passives":["ExtraAttack"],"HealthOverride":30},
+    "S_LOW_AncientLairMummy_003_6d04276b-aefd-43a2-a2f0-eb586bcfc881":{"Passives":["MAG_SarevokArmor_WitheringBarrier_Passive", "LegendaryAction_Apostle_Gaze", "MAG_BansheeBless_Passive"]},
+    "S_LOW_AncientLair_CrawlingClaw_006_2928d81e-4ceb-466f-95a4-a774b35a4c83":{"Passives":["ExtraAttack"],"HealthOverride":30},
+    "S_LOW_AncientLair_CrawlingClaw_004_461234ed-2457-417b-b850-7dffb9d57498":{"Passives":["ExtraAttack"],"HealthOverride":30},
+    "S_LOW_AncientLairMummy_002_6f71be30-7cab-43a7-999d-12b9adde5a0e":{"Passives":["MAG_SarevokArmor_WitheringBarrier_Passive", "LegendaryAction_Apostle_Gaze", "MAG_BansheeBless_Passive"]},
+    "S_LOW_AncientLair_GreaterZombie_000_bd8ab705-e59e-44b1-89fa-df0dc41cd563":{"Passives":["MAG_SarevokArmor_WitheringBarrier_Passive"]},
+    "S_LOW_UndercityRuins_Cultist_Sniper_876c18d6-fcf3-4934-abc1-c0939872c093":{"HealthOverride":250},
+    "S_LOW_UndercityPatrol2_Cultist_001_ff5760cf-edab-482a-91bc-73e4e811eb57":{"Passives":["CX_Magic_Boost", "CX_Spells_L1", "CX_Spells_L2", "CX_Spells_L3"]},
+    "S_LOW_UndercityPatrol2_Cultist_002_0e27e169-ee1e-4e56-93ba-3b86feafd252":{"Passives":["CX_Magic_Boost", "CX_Spells_L1", "CX_Spells_L2", "CX_Spells_L3"]},
+    "S_LOW_RangedCultistAmbusher003_8d058eb7-2b2c-4504-9656-ec014b7b9872":{"Passives":["CX_Fighter_Boost"]},
+    "S_LOW_UndercityPatrol1_Cultist_003_da80e468-cadb-49da-934c-903ba912b7cf":{"Passives":["CX_Ranger_Boost"]},
+    "S_LOW_GroundCultistAmbusher004_b6fcf8fd-fd3f-4cb5-a25e-d520762c56fc":{"Passives":["CX_Barbarian_Boost"]},
+    "S_LOW_UndercityPatrol1_Cultist_Strangler_29ba6894-5a2b-4f81-b756-c5ebdafbbb74":{"Passives":["CX_Monk_Boost"]},
+    "S_LOW_UndercityPatrol1_Cultist_001_470999a2-58be-49cd-a50e-415b6e5a15fb":{"Passives":["CX_Ranger_Boost"]},
+    "S_LOW_RangedCultistAmbusher001_94ad0109-2c78-43f8-b7dd-0d056b742a23":{"Passives":["CX_Rogue_Boost"]},
+    "S_LOW_UndercityPatrol1_Cultist_002_507919b5-2090-4a13-bcca-56e5a5f1c64b":{"Passives":["CX_Fighter_Boost"]},
+    "S_LOW_GroundCultistAmbusher003_7446d348-4741-42b4-a43b-1cbbfacacb6e":{"Passives":["CX_Rogue_Boost"]},
+    "S_LOW_GroundCultistAmbusher001_d81275b5-bff3-4799-8118-e7aa5df575b1":{"Passives":["CX_Ranger_Boost"]},
+    "S_LOW_UndercityPatrol1_Cultist_000_0d291d3e-bf25-49ab-a15e-ed7a8b115a13":{"Passives":["CX_Spells_L5", "CX_Spells_L5C"],"Spells":["Target_Counterspell"],"HealthOverride":150},
+    "S_LOW_RealHope_1947e869-a95d-43c6-81f7-b4c4f90d95ce":{"Passives":["CX_Cleric_Boost", "ExtraAttack", "MAG_Barkskin_Shield_Passive"],"Spells":["Target_HolyWeapon", "Target_HealingSpirit", "Shout_SpiritGuardians", "Target_DeathWard", "Target_InflictWounds"]},
+    "S_LOW_HouseOfHope_PrisonSpectator01_d92a207c-874a-4409-9cad-4abcec33efa1":{"Passives":["CX_Spells_L6"],"Spells":["Projectile_FingerOfDeath_Apostle", "Projectile_Disintegrate"]},
+    "S_LOW_HouseOfHope_PrisonSpectator02_9089024f-e275-43a9-adec-f0923fab2f0c":{"Passives":["CX_Spells_L6"],"Spells":["Projectile_FingerOfDeath_Apostle", "Projectile_Disintegrate"]}
+  },
+  "Health": {
+    "Allies": {
+      "HealthMultiplier": 0,
+      "StaticBoost": 0.1,
+      "HealthPerLevel": 0.015
+    },
+    "Bosses": {
+      "HealthMultiplier": 0,
+      "StaticBoost": 0.1,
+      "HealthPerLevel": 0.025
+    },
+    "Enemies": {
+      "HealthMultiplier": 0,
+      "StaticBoost": 0.1,
+      "HealthPerLevel": 0.020
+    }
+  },
+  "Damage": {
+    "Allies": {
+      "StaticDamageBoost": 1,
+      "DamagePerIncrement": 1,
+      "LevelIncrement": 6
+    },
+    "Bosses": {
+      "StaticDamageBoost": 2,
+      "DamagePerIncrement": 2,
+      "LevelIncrement": 4
+    },
+    "Enemies": {
+      "StaticDamageBoost": 1,
+      "DamagePerIncrement": 2,
+      "LevelIncrement": 4
+    }
+  },
+  "ArmourClass": {
+    "Allies": {
+      "StaticBoost": 1,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 4
+    },
+    "Bosses": {
+      "StaticBoost": 0,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 4
+    },
+    "Enemies": {
+      "StaticBoost": 1,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 4
+    }
+  },
+  "SpellSaveDC": {
+    "Allies": {
+      "StaticBoost": 0,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 6
+    },
+    "Bosses": {
+      "StaticBoost": 0,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 4
+    },
+    "Enemies": {
+      "StaticBoost": 0,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 4
+    }
+  },
+  "AbilityPoints": {
+    "Allies": {
+      "StaticBoost": 1,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 4
+    },
+    "Bosses": {
+      "StaticBoost": 2,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 4
+    },
+    "Enemies": {
+      "StaticBoost": 2,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 6
+    }
+  },
+  "Movement": {
+    "Allies": {
+      "StaticBoost": 3
+    },
+    "Bosses": {
+      "StaticBoost": 3
+    },
+    "Enemies": {
+      "StaticBoost": 3
+    }
+  },
+  "ExtraAction": {
+    "Bosses": {
+      "Action": {
+        "Additional": 0
+      },
+      "BonusAction": {
+        "Additional": 0
+      }
+    },
+    "Enemies": {
+      "Action": {
+        "Additional": 0
+      },
+      "BonusAction": {
+        "Additional": 1
+      }
+    }
+  },
+  "Rolls": {
+    "Allies": {
+      "Attack": {
+        "StaticRollBonus": 0,
+        "RollBonusPerIncrement": 1,
+        "LevelIncrement": 6
+      },
+      "SavingThrow": {
+        "StaticRollBonus": 0,
+        "RollBonusPerIncrement": 1,
+        "LevelIncrement": 8
+      }
+    },
+    "Bosses": {
+      "Attack": {
+        "StaticRollBonus": 1,
+        "RollBonusPerIncrement": 1,
+        "LevelIncrement": 4
+      },
+      "SavingThrow": {
+        "StaticRollBonus": 0,
+        "RollBonusPerIncrement": 1,
+        "LevelIncrement": 8
+      }
+    },
+    "Enemies": {
+      "Attack": {
+        "StaticRollBonus": 1,
+        "RollBonusPerIncrement": 1,
+        "LevelIncrement": 6
+      },
+      "SavingThrow": {
+        "StaticRollBonus": 0,
+        "RollBonusPerIncrement": 1,
+        "LevelIncrement": 6
+      }
+    }
+  }
+}
